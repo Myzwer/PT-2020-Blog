@@ -1,0 +1,114 @@
+/**
+ * Typography
+ * =================================
+ * - Base
+ * - Headers
+ * - Paragraphs
+ * - Text Transformations
+ * - Text Placements
+ *
+ * Body font size, leadings etc have been set in _variables.scss
+ *
+ *
+ */
+
+
+//*********************************************
+//****************** BASE *********************
+//*********************************************
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: $main-font;
+  font-size: $normal;
+}
+
+
+
+
+//*********************************************
+//***************** HEADERS *******************
+//*********************************************
+h1, h2, h3 {
+  font-family: $head-font;
+  color: $background;
+}
+
+h1 {
+  text-transform: uppercase;
+  font-size: $xlarge;
+}
+
+h2 {
+  font-size: $large;
+}
+
+h3 {
+  font-size: $medium;
+  text-transform: uppercase;
+}
+
+h4 {
+  font-family: $main-font;
+  font-size: $small;
+  text-transform: uppercase;
+  color: $background;
+  font-weight: 800;
+}
+
+.main-header {
+  color: $primary;
+}
+
+
+
+//*********************************************
+//*************** PARAGRAPHS ******************
+//*********************************************
+p {
+  font-family: $main-font;
+  font-size: $normal;
+  color: black;
+  padding: 20px;
+  line-height: 1.6;
+}
+
+
+
+
+
+//*********************************************
+//********** TEXT TRANSFORMATION **************
+//*********************************************
+.capitalize {
+  text-transform: capitalize;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.bold {
+  font-weight: 800;
+}
+
+
+
+//*********************************************
+//************* TEXT PLACEMENTS ***************
+//*********************************************
+.left {
+  text-align: left;
+}
+
+.center {
+  text-align: center;
+  margin: 0 auto;
+}
+
+.right {
+  text-align: right;
+}

@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="053c30ea-41d6-43a4-9236-366eb4cc3d4d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dev-gulp/gulpfile.js" beforeDir="false" afterPath="$PROJECT_DIR$/dev-gulp/gulpfile.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dev-gulp/node_modules/gifsicle/vendor/source/gifsicle.tar.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dev-gulp/node_modules/optipng-bin/vendor/source/optipng.tar.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dev-gulp/node_modules/tar/test/cb-never-called-1.0.1.tgz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dev-gulp/node_modules/tar/test/fixtures.tgz" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="SCSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1WVAUbwG21nVJZw7RjxjC9c21IK" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="SCSS" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/devwp/sass/navigation" />
+    </key>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="053c30ea-41d6-43a4-9236-366eb4cc3d4d" name="Default Changelist" comment="" />
+      <created>1579224404482</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1579224404482</updated>
+      <workItem from="1579224405710" duration="4083000" />
+      <workItem from="1579492623812" duration="9758000" />
+      <workItem from="1579568780735" duration="4649000" />
+      <workItem from="1579583959204" duration="38000" />
+      <workItem from="1579584243918" duration="16000" />
+      <workItem from="1579584275902" duration="2422000" />
+      <workItem from="1579759358852" duration="4046000" />
+      <workItem from="1579836063193" duration="10615000" />
+      <workItem from="1580878469154" duration="6045000" />
+      <workItem from="1581052090799" duration="32406000" />
+      <workItem from="1581967324921" duration="7207000" />
+      <workItem from="1585462613948" duration="20926000" />
+      <workItem from="1585629701782" duration="2806000" />
+      <workItem from="1586218388070" duration="975000" />
+      <workItem from="1587498647546" duration="312000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="383" y="253" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1581402591690">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="383" y="253" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1440.877@0.23.1440.877" timestamp="1581402591690" />
+    <state x="0" y="23" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1579583980761">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="0" y="23" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.23.1440.877@0.23.1440.877" timestamp="1579583980761" />
+    <state x="467" y="324" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1585544834414">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="467" y="324" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.23.1440.877@0.23.1440.877" timestamp="1585544834414" />
+    <state x="538" y="381" key="NewPhpFileDialog" timestamp="1585465503912">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="538" y="381" key="NewPhpFileDialog/0.23.1440.877@0.23.1440.877" timestamp="1585465503912" />
+    <state x="419" y="314" key="com.intellij.ide.util.TipDialog" timestamp="1585629703131">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="419" y="314" key="com.intellij.ide.util.TipDialog/0.23.1440.877@0.23.1440.877" timestamp="1585629703131" />
+    <state x="3869" y="251" width="894" height="815" key="search.everywhere.popup" timestamp="1582035897616">
+      <screen x="3360" y="23" width="1920" height="1057" />
+    </state>
+    <state x="3869" y="251" width="894" height="815" key="search.everywhere.popup/0.23.1440.877/3360.23.1920.1057/1440.23.1920.1057@3360.23.1920.1057" timestamp="1582035897616" />
+    <state x="382" y="212" width="670" height="676" key="search.everywhere.popup/0.23.1440.877@0.23.1440.877" timestamp="1580885562204" />
+    <state x="470" y="400" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1579837112442">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="470" y="400" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/0.23.1440.877@0.23.1440.877" timestamp="1579837112442" />
+  </component>
+</project>
