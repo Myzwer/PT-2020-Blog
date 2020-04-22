@@ -34,16 +34,18 @@ body {
 //*********************************************
 h1, h2, h3 {
   font-family: $head-font;
-  color: $background;
+  color: $primary;
 }
 
 h1 {
   text-transform: uppercase;
   font-size: $xlarge;
+  color: $background;
 }
 
 h2 {
   font-size: $large;
+  text-transform: uppercase;
 }
 
 h3 {
@@ -76,7 +78,16 @@ p {
   line-height: 1.6;
 }
 
+.text-invert {
+  color: $background;
+}
 
+//this helps keep the buttons in place by locking the min height of the text
+@media screen and (min-width: 40em) {
+  .height-lock {
+    height: 100px;
+  }
+}
 
 
 

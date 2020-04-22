@@ -17,8 +17,8 @@
   box-sizing: border-box;
   appearance: none;
   background-color: transparent;
-  border: 2px solid #02B3FF;                // change this color
-  color: #02B3FF;                           // change this color
+  border: 2px solid #ffffff;
+  color: #ffffff;
   border-radius: 0.6em;
   cursor: pointer;
   display: flex;
@@ -45,11 +45,11 @@
 //*********************************************
 .btn-v1 {
   //background: ;
-  border-color: #02B3FF;                  // change this color
-  color: #fff;                            // change this color
+  border-color: $primary;
+  color: $primary;
   background: {
     image:
-    linear-gradient(45deg, #02B3FF 50%,   // change this color
+    linear-gradient(45deg, #A3A3A3 50%,   // change this color
     transparent 50%);
     position: 100%;
     size: 400%;
@@ -58,6 +58,7 @@
 
   &:hover {
     background-position: 0;
+    color: black;
   }
 }
 
@@ -65,36 +66,20 @@
 //************* BUTTON STYLE 2 ****************
 //*********************************************
 .btn-v2 {
-  border-color: #02B3FF;                 // change this color
-  color: #02B3FF;                        // change this color
-  // border: 0;
-  border-radius: 0;
-  position: relative;
-  overflow: hidden;
-  z-index: 1;
-  transition: color 150ms ease-in-out;
-
-  &:after {
-    content: '';
-    position: absolute;
-    display: block;
-    top: 0;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 0;
-    height: 100%;
-    background: #02B3FF;               // change this color
-    z-index: -1;
-    transition:
-            width 150ms ease-in-out;
+  //background: ;
+  border-color: $background;
+  color: $background;
+  background: {
+    image:
+            linear-gradient(45deg, #A3A3A3 50%,   // change this color
+                    transparent 50%);
+    position: 100%;
+    size: 400%;
   }
+  transition: background 300ms ease-in-out;
 
   &:hover {
-    color: #fff;                      // change this color
-
-    &:after {
-      width: 110%;
-    }
+    background-position: 0;
+    color: white;
   }
 }
-

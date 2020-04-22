@@ -25,92 +25,13 @@ get_header(); ?>
 
 
 <div class="full-width main-background">
-    <div class = "grid-container">
-        <div class="grid-x grid-padding-x">
-            <div class="large-12 cell">
-                <h1>Welcome to 6!</h1>
-
-                <button class="btn btn-v2">Button 5</button>
-                <div class="callout">
-                    <h3>We're stoked you want to try Foundation! <i class="fas fa-address-book"></i></h3>
-                    <p>To get going, this file (index.html) includes some basic styles you can modify, play around with, or totally destroy to get going.</p>
-                    <p>Once you've exhausted the fun in this document, you should check out:</p>
-                    <div class="grid-x grid-padding-x">
-                        <div class="large-4 medium-4 cell">
-                            <p><a href="http://foundation.zurb.com/docs">Foundation Documentation</a><br />Everything you need to know about using the framework.</p>
-                        </div>
-                        <div class="large-4 medium-4 cell">
-                            <p><a href="http://zurb.com/university/code-skills">Foundation Code Skills</a><br />These online courses offer you a chance to better understand how Foundation works and how you can master it to create awesome projects.</p>
-                        </div>
-                        <div class="large-4 medium-4 cell">
-                            <p><a href="http://foundation.zurb.com/forum">Foundation Forum</a><br />Join the Foundation community to ask a question or show off your knowledge.</p>
-                        </div>
-                    </div>
-                    <div class="grid-x grid-padding-x">
-                        <div class="large-4 medium-4 medium-push-2 cell">
-                            <p><a href="http://github.com/zurb/foundation">Foundation on Github</a><br />Latest code, issue reports, feature requests and more.</p>
-                        </div>
-                        <div class="large-4 medium-4 medium-pull-2 cell">
-                            <p><a href="https://twitter.com/ZURBfoundation">@zurbfoundation</a><br />Ping us on Twitter if you have questions. When you build something with this we'd love to see it (and send you a totally boss sticker).</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="grid-x grid-padding-x">
-            <div class="large-8 medium-8 cell">
-                <h5>Here&rsquo;s your basic grid:</h5>
-                <!-- Grid Example -->
-
-                <div class="grid-x grid-padding-x">
-                    <div class="large-12 cell">
-                        <div class="primary callout">
-                            <p><strong>This is a twelve cell section in a grid-x.</strong> Each of these includes a div.callout element so you can see where the cell are - it's not required at all for the grid.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="grid-x grid-padding-x">
-                    <div class="large-6 medium-6 cell">
-                        <div class="primary callout">
-                            <p>Six cell</p>
-                        </div>
-                    </div>
-                    <div class="large-6 medium-6 cell">
-                        <div class="primary callout">
-                            <p>Six cell</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="grid-x grid-padding-x">
-                    <div class="large-4 medium-4 small-4 cell">
-                        <div class="primary callout">
-                            <p>Four cell</p>
-                        </div>
-                    </div>
-                    <div class="large-4 medium-4 small-4 cell">
-                        <div class="primary callout">
-                            <p>Four cell</p>
-                        </div>
-                    </div>
-                    <div class="large-4 medium-4 small-4 cell">
-                        <div class="primary callout">
-                            <p>Four cell</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="large-4 medium-4 cell">
-                <h5>Try one of these buttons:</h5>
-                <p><a href="#" class="button">Simple Button</a><br/>
-                    <a href="#" class="success button">Success Btn</a><br/>
-                    <a href="#" class="alert button">Alert Btn</a><br/>
-                    <a href="#" class="secondary button">Secondary Btn</a></p>
-                <div class="callout">
-                    <h5>So many components, girl!</h5>
-                    <p>A whole kitchen sink of goodies comes with Foundation. Check out the docs to see them all, along with details on making them your own.</p>
-                    <a href="http://foundation.zurb.com/sites/docs/" class="small button">Go to Foundation Docs</a>
+    <div class = "grid-container padding-bottom padding-top">
+        <div class="grid-x grid-padding-x primary-background">
+            <div class="large-12 cell padding-top">
+                <h2>// Helping churches create healthy environments that grow healthy ministries</h2>
+                <p class = "no-margin no-padding padding-bottom">Every church is unique and requires a tailored approach. With our detailed consultation process, our team aims to create a healthy state that will lead to a culture of multiplying disciples for God's Kingdom to advance. I love God's Church, and we desire to see disciples created for His glory. There is no secret to growth. However, we do know God will do his part. The question remains, 'Will you do yours?'</p>
+                <div class="margin-bottom">
+                    <button class="center no-margin btn btn-v1">Grow My Ministry</button>
                 </div>
             </div>
         </div>
@@ -118,6 +39,50 @@ get_header(); ?>
 </div>
 
 
+    <div class="grid-container full-width">
+        <div class="grid-x grid-padding-x full-background" style = "background: linear-gradient(
+      rgba(0, 0, 0, 0.45),
+      rgba(0, 0, 0, 0.45)
+    ),url(http://pt-blog-2020.local/wp-content/uploads/2020/04/Homepage-Background-scaled-1.jpg);  background-position: center center;">
+            <div class="large-12 cell">
+                <div class="content-middle">
+                    <h1 class = "center" >Watch Pastor Trent Live</h1>
+                    <p class = "text-invert center">Every Sunday 9am / 11am / 1pm / 3pm / 5pm / 9pm (EST)</p>
+                    <button class="btn btn-v2 center">Check It Out</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="full-width main-background">
+        <div class = "grid-container padding-bottom padding-top">
+            <div class="grid-x grid-padding-x grid-margin-x grid-margin-y">
+                <div class="small-12 medium-6 cell padding-top primary-background">
+                    <h2>// Videos</h2>
+                    <p class = "no-margin no-padding padding-bottom height-lock">Sermons, updates, leadership insights and more. Find all the content you need to propel your church into growth.</p>
+                    <div class="margin-bottom">
+                        <button class="center no-margin btn btn-v1">Watch Now</button>
+                    </div>
+                </div>
+
+                <div class="small-12 medium-6 cell padding-top primary-background">
+                    <h2>// About</h2>
+                    <p class = "no-margin no-padding padding-bottom height-lock">Pastor Trent Stewart has more than two decades of experience in full-time ministry. He and his family reside in the Knoxville area.</p>
+                    <div class="margin-bottom">
+                        <button class="center no-margin btn btn-v1">Read More</button>
+                    </div>
+                </div>
+
+                <div class="small-12 cell padding-top primary-background">
+                    <h2>// Contact</h2>
+                    <p class = "no-margin no-padding padding-bottom">Need to ask a question? Want a consultation? Got something on your mind? Let our team know how we can help.</p>
+                    <div class="margin-bottom">
+                        <button class="center no-margin btn btn-v1">Reach Out</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
 
 

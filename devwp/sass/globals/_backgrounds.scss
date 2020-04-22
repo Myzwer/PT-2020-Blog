@@ -68,11 +68,16 @@ body {
 }
 
 .main-background {
-  background-color: $background;
+  background-color: $blue-gray;
   color: $primary;
 }
 
 .inverted-background {
   background-color: $primary;
   color: $background;
+}
+
+.primary-background {
+  background-color: $background;
+  border-radius: 15px;
 }
