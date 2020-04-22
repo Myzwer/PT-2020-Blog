@@ -13,12 +13,12 @@
 
 get_header(); ?>
 
-    <video src="https://foothillscollective.com/wp-content/uploads/2020/02/Revival-Here-Background.mp4" autoplay loop playsinline muted></video>
+    <video src="http://pt-blog-2020.local/wp-content/uploads/2020/04/Blog-Background-Tinted.mp4" autoplay loop playsinline muted></video>
 
     <div class="viewport-header">
-        <div>
-            <h1 class = "main-header">What happened That Night</h1>
-            <h1 class = "main-header"> Watch the exclusive video</h1>
+        <div class="head-container">
+            <div class="headline"><h1>Dr. Trent Stewart</h1></div>
+            <div class="knockout-logo"><img src="http://pt-blog-2020.local/wp-content/uploads/2020/04/outline-logo.png"></div>
         </div>
     </div>
 

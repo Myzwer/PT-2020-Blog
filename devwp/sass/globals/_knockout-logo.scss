@@ -1,0 +1,48 @@
+//this forces the homepage logo effect
+
+.viewport-header {
+  h1 {
+    font-size: 2em;
+    padding-left: 30px;
+    letter-spacing: 0.3em;
+    word-spacing: 0em;
+    font-weight: 800;
+  }
+
+  .head-container {
+    margin: 30px 0px 20px 0px;
+    padding: 35px 0px 10px 0px;
+  }
+
+  .knockout-logo img {
+    position: relative;
+    margin: auto;
+    width: 100px;
+
+  }
+
+  .headline {
+    position: relative;
+    z-index: 5;
+  }
+}
+
+@media screen and (min-width: 40em) {
+  .viewport-header {
+    h1 {
+      font-size: 3em;
+      word-spacing: 1em;
+    }
+
+    .knockout-logo img {
+      width: 300px;
+      margin-top: -175px;
+    }
+
+    .headline {
+      position: relative;
+      z-index: 5;
+    }
+  }
+
+}
