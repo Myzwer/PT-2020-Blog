@@ -21,8 +21,8 @@
 
 <div class="topnav" id="myTopnav">
     <div class = "logo">
-        <a href="http://charisinaction.org/">
-            <img src = "http://starter-template.local/wp-content/uploads/2020/03/Logo.png" alt = "logo">
+        <a href="#">
+            <img src = "http://pt-blog-2020.local/wp-content/uploads/2020/04/icon-dark.png" alt = "logo">
         </a>
     </div>
 
@@ -31,14 +31,6 @@
         <a href="javascript:void(0);" style="font-size:25px;" class="icon" onclick="myFunction()">&#9776;</a>
     </div>
 </div>
-
-
-
-
-
-
-
-
 
 
 <body <?php body_class(); ?>>
