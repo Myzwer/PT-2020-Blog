@@ -41,6 +41,9 @@ add_action('wp_enqueue_scripts', 'scripts_loadin');
 wp_register_style( 'raleway_font', 'https://fonts.googleapis.com/css?family=Raleway:400,700' );
 wp_enqueue_style('raleway_font');
 
+wp_register_style( 'open_sans_font', 'https://fonts.googleapis.com/css2?family=Open+Sans&display=swap' );
+wp_enqueue_style('open_sans_font');
+
 
 //*****************************************************
 //*************** MENU REGISTRATIONS ******************

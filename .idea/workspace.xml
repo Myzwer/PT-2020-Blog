@@ -3,11 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="053c30ea-41d6-43a4-9236-366eb4cc3d4d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dev-gulp/gulpfile.js" beforeDir="false" afterPath="$PROJECT_DIR$/dev-gulp/gulpfile.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dev-gulp/node_modules/gifsicle/vendor/source/gifsicle.tar.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dev-gulp/node_modules/optipng-bin/vendor/source/optipng.tar.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dev-gulp/node_modules/tar/test/cb-never-called-1.0.1.tgz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dev-gulp/node_modules/tar/test/fixtures.tgz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/devwp/dist/css/main.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/dist/css/main.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/devwp/dist/css/maps/main.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/dist/css/maps/main.min.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/devwp/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/functions.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/devwp/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/devwp/sass/globals/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/sass/globals/_variables.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/devwp/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,7 +94,7 @@
       <workItem from="1585462613948" duration="20926000" />
       <workItem from="1585629701782" duration="2806000" />
       <workItem from="1586218388070" duration="975000" />
-      <workItem from="1587498647546" duration="312000" />
+      <workItem from="1587498647546" duration="2128000" />
     </task>
     <servers />
   </component>
