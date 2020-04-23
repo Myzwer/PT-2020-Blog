@@ -21,6 +21,18 @@
   max-width: initial;
 }
 
+//*********************************************
+//**************** MISC TOOLS *****************
+//*********************************************
+
+.opacity-medium {
+  opacity: .8;
+}
+
+.rounded-corners {
+  border-radius: 15px;
+}
+
 
 //*********************************************
 //************* SPACING OVERRIDES *************
@@ -47,4 +59,16 @@
 
 .margin-bottom {
   margin-bottom: 30px;
+}
+
+.margin-top-xl {
+  margin-top: 30vh;
+}
+
+
+//width fixes
+@media screen and (max-width: 39.9375em) {
+  .width-large {
+    width: 100%;
+  }
 }

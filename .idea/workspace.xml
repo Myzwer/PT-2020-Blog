@@ -2,11 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="053c30ea-41d6-43a4-9236-366eb4cc3d4d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/devwp/about.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/devwp/sass/navigation/_socials.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/devwp/dist/css/main.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/dist/css/main.min.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/devwp/dist/css/maps/main.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/dist/css/maps/main.min.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/devwp/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/devwp/sass/navigation/_header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/sass/navigation/_header.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/devwp/sass/globals/_backgrounds.scss" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/sass/globals/_backgrounds.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/devwp/sass/globals/_typography.scss" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/sass/globals/_typography.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/devwp/sass/grid/_overrides.scss" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/sass/grid/_overrides.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/devwp/sass/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/sass/main.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,7 +97,7 @@
       <workItem from="1585462613948" duration="20926000" />
       <workItem from="1585629701782" duration="2806000" />
       <workItem from="1586218388070" duration="975000" />
-      <workItem from="1587498647546" duration="11127000" />
+      <workItem from="1587498647546" duration="21289000" />
     </task>
     <servers />
   </component>
@@ -112,19 +117,19 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="467" y="324" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.23.1440.877@0.23.1440.877" timestamp="1585544834414" />
-    <state x="538" y="381" key="NewPhpFileDialog" timestamp="1585465503912">
+    <state x="538" y="381" key="NewPhpFileDialog" timestamp="1587567106261">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="538" y="381" key="NewPhpFileDialog/0.23.1440.877@0.23.1440.877" timestamp="1585465503912" />
+    <state x="538" y="381" key="NewPhpFileDialog/0.23.1440.877@0.23.1440.877" timestamp="1587567106261" />
     <state x="419" y="314" key="com.intellij.ide.util.TipDialog" timestamp="1585629703131">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="419" y="314" key="com.intellij.ide.util.TipDialog/0.23.1440.877@0.23.1440.877" timestamp="1585629703131" />
-    <state x="3869" y="251" width="894" height="815" key="search.everywhere.popup" timestamp="1582035897616">
-      <screen x="3360" y="23" width="1920" height="1057" />
+    <state x="382" y="212" width="670" height="676" key="search.everywhere.popup" timestamp="1587567043808">
+      <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="3869" y="251" width="894" height="815" key="search.everywhere.popup/0.23.1440.877/3360.23.1920.1057/1440.23.1920.1057@3360.23.1920.1057" timestamp="1582035897616" />
-    <state x="382" y="212" width="670" height="676" key="search.everywhere.popup/0.23.1440.877@0.23.1440.877" timestamp="1580885562204" />
+    <state x="382" y="212" width="670" height="676" key="search.everywhere.popup/0.23.1440.877@0.23.1440.877" timestamp="1587567043808" />
     <state x="470" y="400" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1579837112442">
       <screen x="0" y="23" width="1440" height="877" />
     </state>

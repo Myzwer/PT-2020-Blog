@@ -24,6 +24,10 @@
   position: relative;
 }
 
+.full-background-xl {
+  height: 100vh;
+}
+
 //This can be used anywhere, but it HAS to have relative positioning above it or it won't work.
 .content-middle {
   position: absolute;
