@@ -30,7 +30,7 @@ get_header(); ?>
                     <h2>// Helping churches create healthy environments that grow healthy ministries</h2>
                     <p class = "no-margin no-padding padding-bottom">Every church is unique and requires a tailored approach. With our detailed consultation process, our team aims to create a healthy state that will lead to a culture of multiplying disciples for God's Kingdom to advance. I love God's Church, and we desire to see disciples created for His glory. There is no secret to growth. However, we do know God will do his part. The question remains, 'Will you do yours?'</p>
                     <div class="margin-bottom">
-                        <button class="center no-margin btn btn-v1">Reach Out Today</button>
+                        <button class="center no-margin btn btn-v1">Take Your First Step</button>
                     </div>
                 </div>
             </div>
@@ -92,6 +92,121 @@ get_header(); ?>
                         </div>
                     </div>
                 </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <!-- Packages Section -->
+    <div class="full-width main-background">
+        <div class = "grid-container padding-top padding-bottom">
+            <div class="grid-x grid-padding-x grid-margin-x ">
+                <div class="small-12 medium-4 cell padding-top inverted-background rounded-corners">
+                    <div class="center detail-table">
+                        <i class="fas fa-laptop table-icon"></i>
+                        <h3>Virtual Consulting</h3>
+                        <hr>
+
+                        <div class="green-check">
+                            <p class = "no-padding no-padding"><i class="fas fa-check"></i> Key Metric Analysis</p>
+                            <hr class="narrow-hr">
+
+                            <p class = "no-padding no-padding"><i class="fas fa-check"></i> Church Health Report</p>
+                            <hr class="narrow-hr">
+
+                            <p class = "no-padding no-padding"><i class="fas fa-check"></i> Demographic Survey</p>
+                            <hr class="narrow-hr">
+
+                            <p class = "no-padding no-padding"><i class="fas fa-check"></i> Psychographic Survey</p>
+                            <hr class="narrow-hr">
+
+                            <p class = "no-padding no-padding"><i class="fas fa-check"></i> Two Video Conferences</p>
+                            <hr class="narrow-hr">
+
+                            <p class = "no-padding no-padding"><i class="fas fa-check"></i> Complete Consultation Report</p>
+                            <hr class="narrow-hr">
+
+                            <p class = "no-padding no-padding"><i class="fas fa-check"></i> Secret Guest Review and Report</p>
+                        </div>
+
+                        <div class="margin-bottom">
+                            <button class="center no-margin btn btn-v1">Contact The Team</button>
+                        </div>
+
+                    </div>
+                </div>
+
+
+                <div class="small-12 medium-4 cell padding-top table-featured rounded-corners">
+                    <div class="center detail-table">
+                        <i class="fas fa-chart-bar table-icon"></i>
+                        <h3>Specialized Consultation</h3>
+                        <hr>
+                        <div class="green-check">
+                            <p class = "no-padding no-padding"><i class="fas fa-check"></i> Revitalization</p>
+                            <hr class="narrow-hr">
+
+                            <p class = "no-padding no-padding"><i class="fas fa-check"></i> Vision</p>
+                            <hr class="narrow-hr">
+
+                            <p class = "no-padding no-padding"><i class="fas fa-check"></i> Systems</p>
+                            <hr class="narrow-hr">
+
+                            <p class = "no-padding no-padding"><i class="fas fa-check"></i> Community Engagement</p>
+                            <hr class="narrow-hr">
+
+                            <p class = "no-padding no-padding"><i class="fas fa-check"></i> Team Unity</p>
+                            <hr class="narrow-hr">
+
+                            <p class = "no-padding no-padding"><i class="fas fa-check"></i> Reigniting Growth</p>
+                            <hr class="narrow-hr">
+
+                            <p class = "no-padding no-padding"><i class="fas fa-check"></i> Strategic Planning</p>
+                        </div>
+
+                        <div class="margin-bottom">
+                            <button class="center no-margin btn btn-v1">Contact The Team</button>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="small-12 medium-4 cell padding-top inverted-background rounded-corners">
+                    <div class="center detail-table">
+                        <i class="fas fa-clipboard-list table-icon"></i>
+                        <h3>Comprehensive Consultation</h3>
+                        <hr>
+                        <div class="green-check">
+                            <p class = "no-padding no-padding"><i class="fas fa-check"></i> Community Assessment</p>
+                            <hr class="narrow-hr">
+
+                            <p class = "no-padding no-padding"><i class="fas fa-check"></i> Demographic Report</p>
+                            <hr class="narrow-hr">
+
+                            <p class = "no-padding no-padding"><i class="fas fa-check"></i> Psychographic Report</p>
+                            <hr class="narrow-hr">
+
+                            <p class = "no-padding no-padding"><i class="fas fa-check"></i> Onsite Visit and Interviews</p>
+                            <hr class="narrow-hr">
+
+                            <p class = "no-padding no-padding"><i class="fas fa-check"></i> Facilities Report</p>
+                            <hr class="narrow-hr">
+
+                            <p class = "no-padding no-padding"><i class="fas fa-check"></i> Secret Guest Report</p>
+                            <hr class="narrow-hr">
+
+                            <p class = "no-padding no-padding"><i class="fas fa-check"></i> Church Health Survey</p>
+                        </div>
+
+                        <div class="margin-bottom">
+                            <button class="center no-margin btn btn-v1">Contact The Team</button>
+                        </div>
+
+                    </div>
+                </div>
+
             </div>
         </div>
     </div>
