@@ -102,8 +102,11 @@ get_header(); ?>
     <!-- Packages Section -->
     <div class="full-width main-background">
         <div class = "grid-container padding-top padding-bottom">
-            <div class="grid-x grid-padding-x grid-margin-x ">
-                <div class="small-12 medium-4 cell padding-top inverted-background rounded-corners">
+            <div class="grid-x grid-padding-x grid-margin-x">
+                <div class="small-12 center padding-top primary-background padding-bottom rounded-corners margin-bottom">
+                    <h3 class = "center">// The Packages</h3>
+                </div>
+                <div class="small-12 margin-top medium-4 cell padding-top inverted-background rounded-corners">
                     <div class="center detail-table">
                         <i class="fas fa-laptop table-icon"></i>
                         <h3>Virtual Consulting</h3>
@@ -139,7 +142,7 @@ get_header(); ?>
                 </div>
 
 
-                <div class="small-12 medium-4 cell padding-top table-featured rounded-corners">
+                <div class="small-12 medium-4 cell margin-top padding-top table-featured rounded-corners">
                     <div class="center detail-table">
                         <i class="fas fa-chart-bar table-icon"></i>
                         <h3>Specialized Consultation</h3>
@@ -173,7 +176,7 @@ get_header(); ?>
                     </div>
                 </div>
 
-                <div class="small-12 medium-4 cell padding-top inverted-background rounded-corners">
+                <div class="small-12 medium-4 cell margin-top padding-top inverted-background rounded-corners">
                     <div class="center detail-table">
                         <i class="fas fa-clipboard-list table-icon"></i>
                         <h3>Comprehensive Consultation</h3>
@@ -203,10 +206,47 @@ get_header(); ?>
                         <div class="margin-bottom">
                             <button class="center no-margin btn btn-v1">Contact The Team</button>
                         </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
+    <div class="full-width primary-background padding-bottom">
+        <div class = "grid-container padding-bottom padding-top">
+            <div class="grid-x  grid-margin-x rounded-corners">
+                <div class="small-12 center padding-top main-background padding-bottom rounded-corners">
+                    <h3 class = "center">// Meet the Team</h3>
+                </div>
+                <div class="small-12 medium-6 cell margin-top main-background rounded-corners">
+                    <img class = "rounded-corners-top" src="http://pt-blog-2020.local/wp-content/uploads/2020/04/PT-About-Section.jpg" alt="">
+                    <div class="add-padding">
+                        <h3>Trent Stewart</h3>
+                        <h5>Lead Pastor at Foothills Church</h5>
+                        <h6 class = "no-margin">Master of Divinity</h6>
+                        <h6 class = "no-margin">Doctorate of Ministry</h6>
+                        <h6 class = "no-margin italics">Southern Baptist Theological Seminary</h6>
+                        <h6 class = "padding-top no-margin">Bachelor of Science </h6>
+                        <h6 class = "no-margin italics">Southern Baptist Theological Seminary</h6>
+                        <hr>
+                        <p class = "no-padding">Pastor Trent Stewart is the lead pastor of Foothills Church in Maryville, Tennessee, one of the fastest-growing churches in East Tennessee. His unique perspective and diverse experience include leadership roles within influential Southern Baptist churches as well as the lead pastor of a successful church plant. His background and passion for leadership development allows Pastor Trent to equip and consult pastors seeking revitalization, growth and church planting. Pastor Trent received his Master of Divinity and Doctorate of Ministry from The Southern Baptist Theological Seminary. He also holds a Bachelor of Science in Business Administration.</p>
                     </div>
                 </div>
 
+                <div class="small-12 medium-6 cell margin-top main-background rounded-corners">
+                    <img class = "rounded-corners-top" src="http://pt-blog-2020.local/wp-content/uploads/2020/04/RS-About-Section.jpg" alt="">
+                    <div class="add-padding">
+                        <h3>Ron Stewart</h3>
+                        <h5>Former Lead Pastor At Grace Baptist Church</h5>
+                        <h6 class = "no-margin">Doctor of Divinity</h6>
+                        <h6 class = "no-margin">Master’s of Divinity</h6>
+                        <h6 class = "no-margin italics">Southern Baptist Theological Seminary</h6>
+                        <h6 class = "padding-top no-margin">Bachelor of Arts </h6>
+                        <h6 class = "no-margin italics">Belmont</h6>
+                        <hr>
+                        <p class = "no-padding">With more than 50 years of pastoral ministry experience, Dr. Ron Stewart has dedicated his life to effectively sharing the Gospel. Most recently, as lead pastor of Grace Baptist Church in Knoxville, Tennessee, he grew the local church from a weekly attendance of 200 to a gathering of 3,000. Grace Baptist is one of five churches that have been under the pastoral leadership of Dr. Stewart. Furthermore, he has served a trustee for the Southern Baptist Seminary, North American Mission Board, Carson Newman University. He has also served as the president of the Tennessee Baptist Convention (2007). Dr. Stewart holds a Doctor of Divinity and a Master’s of Divinity degree from the Southern Baptist Seminary, in addition to his Bachelor’s of Arts from Belmont.</p>
+                    </div>
+                </div>
             </div>
         </div>
     </div>

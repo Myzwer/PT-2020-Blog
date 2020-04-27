@@ -33,6 +33,11 @@
   border-radius: 15px;
 }
 
+.rounded-corners-top {
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
 
 //*********************************************
 //************* SPACING OVERRIDES *************
@@ -47,6 +52,10 @@
 
 .padding-top {
   padding-top: 30px;
+}
+
+.add-padding {
+  padding: 20px;
 }
 
 .margin-top {

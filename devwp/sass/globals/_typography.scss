@@ -110,6 +110,10 @@ p {
   font-weight: 800;
 }
 
+.italics {
+  font-style: italic;
+}
+
 
 
 //*********************************************
@@ -122,6 +126,10 @@ p {
 .center {
   text-align: center;
   margin: 0 auto;
+}
+
+.soft-center {
+  text-align: center;
 }
 
 .right {
