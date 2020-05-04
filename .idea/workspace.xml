@@ -3,11 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="053c30ea-41d6-43a4-9236-366eb4cc3d4d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/devwp/consulting.php" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/consulting.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/devwp/dist/css/main.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/dist/css/main.min.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/devwp/dist/css/maps/main.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/dist/css/maps/main.min.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/devwp/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/devwp/sass/globals/_typography.scss" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/sass/globals/_typography.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/devwp/sass/contact.php" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/contact.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/devwp/sass/grid/_overrides.scss" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/sass/grid/_overrides.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -55,6 +54,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/devwp" />
       <recent name="$PROJECT_DIR$/devwp/sass/navigation" />
     </key>
   </component>
@@ -94,7 +94,8 @@
       <workItem from="1585462613948" duration="20926000" />
       <workItem from="1585629701782" duration="2806000" />
       <workItem from="1586218388070" duration="975000" />
-      <workItem from="1587498647546" duration="58316000" />
+      <workItem from="1587498647546" duration="62512000" />
+      <workItem from="1588603947593" duration="1361000" />
     </task>
     <servers />
   </component>
@@ -114,10 +115,10 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="467" y="324" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.23.1440.877@0.23.1440.877" timestamp="1585544834414" />
-    <state x="538" y="381" key="NewPhpFileDialog" timestamp="1587621850800">
+    <state x="538" y="381" key="NewPhpFileDialog" timestamp="1588003982540">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="538" y="381" key="NewPhpFileDialog/0.23.1440.877@0.23.1440.877" timestamp="1587621850800" />
+    <state x="538" y="381" key="NewPhpFileDialog/0.23.1440.877@0.23.1440.877" timestamp="1588003982540" />
     <state x="419" y="314" key="com.intellij.ide.util.TipDialog" timestamp="1585629703131">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
