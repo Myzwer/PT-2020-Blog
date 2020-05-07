@@ -1,0 +1,16 @@
+.podcast-title {
+  font-size: 1.5em;
+  font-weight: 800;
+  border-radius: 10px;
+}
+
+.podcast-card {
+  background-color: $background;
+  border-radius: 15px;
+  box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+
+  img {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+  }
+}

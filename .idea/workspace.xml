@@ -2,8 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="053c30ea-41d6-43a4-9236-366eb4cc3d4d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/devwp/sass/pages-single/_broadcast-posts.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/devwp/archive-podcast.php" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/archive-podcast.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/devwp/dist/css/main.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/dist/css/main.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/devwp/dist/css/maps/main.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/dist/css/maps/main.min.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/devwp/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/functions.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/devwp/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/devwp/sass/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/sass/main.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,7 +98,7 @@
       <workItem from="1586218388070" duration="975000" />
       <workItem from="1587498647546" duration="62512000" />
       <workItem from="1588603947593" duration="2900000" />
-      <workItem from="1588701309987" duration="1656000" />
+      <workItem from="1588701309987" duration="12075000" />
     </task>
     <servers />
   </component>
