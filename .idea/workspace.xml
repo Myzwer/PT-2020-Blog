@@ -2,14 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="053c30ea-41d6-43a4-9236-366eb4cc3d4d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/devwp/sass/pages-single/_broadcast-posts.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/devwp/archive-broadcast.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/devwp/archive-podcast.php" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/archive-podcast.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/devwp/dist/css/main.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/dist/css/main.min.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/devwp/dist/css/maps/main.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/dist/css/maps/main.min.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/devwp/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/functions.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/devwp/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/devwp/sass/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/sass/main.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/devwp/sass/pages-single/_broadcast-posts.scss" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/sass/pages-single/_broadcast-posts.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,7 +96,7 @@
       <workItem from="1586218388070" duration="975000" />
       <workItem from="1587498647546" duration="62512000" />
       <workItem from="1588603947593" duration="2900000" />
-      <workItem from="1588701309987" duration="12075000" />
+      <workItem from="1588701309987" duration="15498000" />
     </task>
     <servers />
   </component>
@@ -114,14 +112,14 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="467" y="324" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.23.1440.877@0.23.1440.877" timestamp="1585544834414" />
-    <state x="538" y="381" key="NewPhpFileDialog" timestamp="1588610088889">
+    <state x="538" y="381" key="NewPhpFileDialog" timestamp="1588864559351">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="538" y="381" key="NewPhpFileDialog/0.23.1440.877@0.23.1440.877" timestamp="1588610088889" />
-    <state x="419" y="314" key="com.intellij.ide.util.TipDialog" timestamp="1588701337304">
+    <state x="538" y="381" key="NewPhpFileDialog/0.23.1440.877@0.23.1440.877" timestamp="1588864559351" />
+    <state x="419" y="314" key="com.intellij.ide.util.TipDialog" timestamp="1589214340253">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="419" y="314" key="com.intellij.ide.util.TipDialog/0.23.1440.877@0.23.1440.877" timestamp="1588701337304" />
+    <state x="419" y="314" key="com.intellij.ide.util.TipDialog/0.23.1440.877@0.23.1440.877" timestamp="1589214340253" />
     <state x="387" y="204" key="run.anything.popup" timestamp="1587664095905">
       <screen x="0" y="23" width="1440" height="877" />
     </state>

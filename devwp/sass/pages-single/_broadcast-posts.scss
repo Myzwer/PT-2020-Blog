@@ -14,3 +14,20 @@
     border-top-right-radius: 15px;
   }
 }
+
+.category-box {
+  background-color: $charcoal;
+  color: white;
+  display: inline;
+  padding: 2px 10px;
+  margin-top: 10px;
+  border-radius: 3px;
+}
+
+.filter-box {
+  background-color: $background;
+  border-radius: 10px;
+  text-align: right;
+  margin: 10px;
+  padding: 30px 10px;
+}
