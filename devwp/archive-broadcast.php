@@ -100,4 +100,3 @@ setup_postdata($post);
 
 
 get_footer();
-?>
