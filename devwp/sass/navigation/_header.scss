@@ -144,7 +144,7 @@
 
 @media screen and (max-width: 830px) {
   .topnav.responsive {
-    position: absolute; // if you want page content to move down with dropdown, set this to relative.
+    position: fixed; // if you want page content to move down with dropdown, set this to relative.
   }
   .topnav.responsive .icon {
     position: absolute;
