@@ -2,14 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="053c30ea-41d6-43a4-9236-366eb4cc3d4d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/devwp/sass/media/iframes.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/devwp/single-broadcast.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/devwp/about.php" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/about.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/devwp/archive-broadcast.php" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/archive-broadcast.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/devwp/consulting.php" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/consulting.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/devwp/dist/css/main.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/dist/css/main.min.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/devwp/dist/css/maps/main.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/dist/css/maps/main.min.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/devwp/front-page.php" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/front-page.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/devwp/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/devwp/sass/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/sass/main.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/devwp/sass/globals/_typography.scss" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/sass/globals/_typography.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/devwp/single-broadcast.php" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/single-broadcast.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,7 +102,7 @@
       <workItem from="1588603947593" duration="2900000" />
       <workItem from="1588701309987" duration="15498000" />
       <workItem from="1589214243671" duration="1176000" />
-      <workItem from="1589228690803" duration="6392000" />
+      <workItem from="1589228690803" duration="9430000" />
     </task>
     <servers />
   </component>

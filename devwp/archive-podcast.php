@@ -29,16 +29,7 @@ setup_postdata($post);
     </div>
 
 
-    <div class="full-width primary-background padding-bottom">
-        <div class = "grid-container padding-bottom padding-top">
-            <div class="grid-x grid-padding-x main-background rounded-corners">
-                <div class="small-12 cell padding-top">
-                    <h2 class = "center ">// The Ascent Podcast</h2>
-                    <p class = " center padding-bottom">Listen along as Pastor Trent talks about stuff that is relevant to other things</p>
-                </div>
-            </div>
-        </div>
-    </div>
+
 
     <div class="full-width main-background">
         <div class = "grid-container padding-bottom padding-top">

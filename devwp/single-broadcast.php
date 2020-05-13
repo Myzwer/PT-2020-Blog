@@ -38,13 +38,13 @@ get_header();
         <div class = "grid-container padding-bottom">
             <div class="grid-x grid-padding-x primary-background add-padding">
                 <div class="large-4 cell">
-                    <button class="btn btn-v1 center">Previous Post</button>
+                    <button class="btn btn-v1 center">Previous Video</button>
                 </div>
                 <div class="large-4 cell">
                     <button class="btn btn-v1 center">All Videos</button>
                 </div>
                 <div class="large-4 cell">
-                    <button class="btn btn-v1 center">Next Post</button>
+                    <button class="btn btn-v1 center">Next Video</button>
                 </div>
             </div>
         </div>

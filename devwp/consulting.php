@@ -27,10 +27,11 @@ get_header(); ?>
         <div class = "grid-container padding-bottom padding-top">
             <div class="grid-x grid-padding-x primary-background">
                 <div class="large-12 cell padding-top">
-                    <h2>// Helping churches create healthy environments that grow healthy ministries</h2>
-                    <p class = "no-margin no-padding padding-bottom">Every church is unique and requires a tailored approach. With our detailed consultation process, our team aims to create a healthy state that will lead to a culture of multiplying disciples for God's Kingdom to advance. I love God's Church, and we desire to see disciples created for His glory. There is no secret to growth. However, we do know God will do his part. The question remains, 'Will you do yours?'</p>
+                    <h4 class = "center text-color">Helping churches create healthy environments that grow healthy ministries</h4>
+                    <hr>
+                    <p class = "no-margin no-padding add-padding">Every church is unique and requires a tailored approach. With our detailed consultation process, our team aims to create a healthy state that will lead to a culture of multiplying disciples for God's Kingdom to advance. I love God's Church, and we desire to see disciples created for His glory. There is no secret to growth. However, we do know God will do his part. The question remains, 'Will you do yours?'</p>
                     <div class="margin-bottom">
-                        <button class="center no-margin btn btn-v1">Take Your First Step</button>
+                        <button class="center no-margin btn btn-v1">Take My First Step</button>
                     </div>
                 </div>
             </div>
@@ -61,7 +62,7 @@ get_header(); ?>
                             </div>
                             <h3 class = "center padding-top">Discovery</h3>
                             <hr>
-                            <p class = "center no-padding no-margin padding-bottom">Let us reach out to you. We want to discover your goals so we can grow your ministry.</p>
+                            <p class = "center no-padding no-margin padding-bottom">Let us get back to you. We want to discover your goals so we can grow your ministry.</p>
                         </div>
 
                         <div class="small-12 medium-4 cell padding-top margin-top-xl primary-background process-box">
@@ -221,13 +222,13 @@ get_header(); ?>
                 <div class="small-12 medium-6 cell margin-top main-background rounded-corners">
                     <img class = "rounded-corners-top" src="http://pt-blog-2020.local/wp-content/uploads/2020/04/PT-About-Section.jpg" alt="">
                     <div class="add-padding">
-                        <h3>Trent Stewart</h3>
+                        <h3>Dr. Trent Stewart</h3>
                         <h5>Lead Pastor at Foothills Church</h5>
                         <h6 class = "no-margin">Master of Divinity</h6>
                         <h6 class = "no-margin">Doctorate of Ministry</h6>
-                        <h6 class = "no-margin italics">Southern Baptist Theological Seminary</h6>
+                        <h6 class = "no-margin italics">The Southern Baptist Theological Seminary</h6>
                         <h6 class = "padding-top no-margin">Bachelor of Science </h6>
-                        <h6 class = "no-margin italics">Southern Baptist Theological Seminary</h6>
+                        <h6 class = "no-margin italics">Carson-Newman University</h6>
                         <hr>
                         <p class = "no-padding">Pastor Trent Stewart is the lead pastor of Foothills Church in Maryville, Tennessee, one of the fastest-growing churches in East Tennessee. His unique perspective and diverse experience include leadership roles within influential Southern Baptist churches as well as the lead pastor of a successful church plant. His background and passion for leadership development allows Pastor Trent to equip and consult pastors seeking revitalization, growth and church planting. Pastor Trent received his Master of Divinity and Doctorate of Ministry from The Southern Baptist Theological Seminary. He also holds a Bachelor of Science in Business Administration.</p>
                     </div>
@@ -236,15 +237,34 @@ get_header(); ?>
                 <div class="small-12 medium-6 cell margin-top main-background rounded-corners">
                     <img class = "rounded-corners-top" src="http://pt-blog-2020.local/wp-content/uploads/2020/04/RS-About-Section.jpg" alt="">
                     <div class="add-padding">
-                        <h3>Ron Stewart</h3>
+                        <h3>Dr. Ron Stewart</h3>
                         <h5>Former Lead Pastor At Grace Baptist Church</h5>
-                        <h6 class = "no-margin">Doctor of Divinity</h6>
-                        <h6 class = "no-margin">Master’s of Divinity</h6>
-                        <h6 class = "no-margin italics">Southern Baptist Theological Seminary</h6>
+                        <h6 class = "no-margin">Master of Divinity</h6>
+                        <h6 class = "no-margin">Doctorate of Divinity</h6>
+                        <h6 class = "no-margin italics">The Southern Baptist Theological Seminary</h6>
                         <h6 class = "padding-top no-margin">Bachelor of Arts </h6>
-                        <h6 class = "no-margin italics">Belmont</h6>
+                        <h6 class = "no-margin italics">Belmont University</h6>
                         <hr>
                         <p class = "no-padding">With more than 50 years of pastoral ministry experience, Dr. Ron Stewart has dedicated his life to effectively sharing the Gospel. Most recently, as lead pastor of Grace Baptist Church in Knoxville, Tennessee, he grew the local church from a weekly attendance of 200 to a gathering of 3,000. Grace Baptist is one of five churches that have been under the pastoral leadership of Dr. Stewart. Furthermore, he has served a trustee for the Southern Baptist Seminary, North American Mission Board, Carson Newman University. He has also served as the president of the Tennessee Baptist Convention (2007). Dr. Stewart holds a Doctor of Divinity and a Master’s of Divinity degree from the Southern Baptist Seminary, in addition to his Bachelor’s of Arts from Belmont.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="grid-container full-width">
+        <div class="grid-x grid-padding-x full-background " style = "background: linear-gradient(
+      rgba(0, 0, 0, 0.45),
+      rgba(0, 0, 0, 0.45)
+    ),url(http://pt-blog-2020.local/wp-content/uploads/2020/04/Watch-Page.jpg);   background-position: center center;background-repeat: no-repeat;background-attachment: scroll; background-size: cover;">
+            <div class="small-12 cell">
+                <div class="content-middle">
+                    <h1 class = "center" >Let's Be Social</h1>
+                    <div class = "text-invert socials center">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
                     </div>
                 </div>
             </div>

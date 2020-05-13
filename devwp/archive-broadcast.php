@@ -29,16 +29,7 @@ setup_postdata($post);
     </div>
 
 
-    <div class="full-width primary-background padding-bottom">
-        <div class = "grid-container padding-bottom padding-top">
-            <div class="grid-x grid-padding-x main-background rounded-corners">
-                <div class="small-12 cell padding-top">
-                    <h2 class = "center ">Watch</h2>
-                    <p class = " center padding-bottom">Idk man watch stuff here or whatever.</p>
-                </div>
-            </div>
-        </div>
-    </div>
+
 
     <div class="full-width main-background">
         <div class = "grid-container padding-bottom padding-top">
@@ -53,39 +44,39 @@ setup_postdata($post);
                     </div>
                 </div>
 
-                <div class="small-12 medium-6 cell podcast-card margin-bottom">
-                    <a href="#">
+                <div class="small-12 medium-6 large-4 cell podcast-card margin-bottom">
+                    <a href="http://192.168.1.191:3000/example-single-post/">
                         <img src="http://pt-blog-2020.local/wp-content/uploads/2020/04/PT-About-Section.jpg" alt="">
                     </a>
                     <div class="add-padding">
-                        <a href = "#">
-                            <h2 class = "capitalize">No Other Gospel</h2>
+                        <a href = "http://192.168.1.191:3000/example-single-post/">
+                            <h4 class = "capitalize text-color">No Other Gospel</h4>
                         </a>
                         <p class = "no-margin no-padding">May 3, 2020</p>
                         <p class = "no-margin no-padding category-box">Sermon</p>
                     </div>
                 </div>
 
-                <div class="small-12 medium-6 cell podcast-card margin-bottom">
+                <div class="small-12 medium-6 large-4  cell podcast-card margin-bottom">
                     <a href="#">
                         <img src="https://b16b64e9fc79863eb097-2d57ced7297adfa11a0f9d9e6bf0a0a1.ssl.cf2.rackcdn.com/uploaded/c/0e10006853_1584821214_coronavirus-updates.jpg" alt="">
                     </a>
                     <div class="add-padding">
                         <a href = "#">
-                            <h2 class = "capitalize">COVID-19 Update #4</h2>
+                            <h4 class = "capitalize text-color">COVID-19 Update #4</h4>
                         </a>
                         <p class = "no-margin no-padding">May 1, 2020</p>
                         <p class = "no-margin no-padding category-box">Updates</p>
                     </div>
                 </div>
 
-                <div class="small-12 medium-6 cell podcast-card margin-bottom">
+                <div class="small-12 medium-6 large-4 cell podcast-card margin-bottom">
                     <a href="#">
                         <img src="http://pt-blog-2020.local/wp-content/uploads/2020/04/PT-About-Section.jpg" alt="">
                     </a>
                     <div class="add-padding">
                         <a href = "#">
-                            <h2 class = "capitalize">How to worship during the Ronas</h2>
+                            <h4 class = "capitalize text-color">How to Worship in a Socially Distanced World: Instagram Live Interview</h4>
                         </a>
                         <p class = "no-margin no-padding">April 15, 2020</p>
                         <p class = "no-margin no-padding category-box">Development</p>
