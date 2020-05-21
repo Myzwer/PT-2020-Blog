@@ -13,20 +13,28 @@ setup_postdata($post);
 ?>
 
 
-    <div class="grid-container full-width">
-        <div class="grid-x grid-padding-x full-background" style = "background: linear-gradient(
-      rgba(0, 0, 0, 0.45),
-      rgba(0, 0, 0, 0.45)
-    ),url(http://pt-blog-2020.local/wp-content/uploads/2020/05/LISTEN.jpg);  background-position: top center;">
-            <div class="large-12 cell">
-                <div class="content-middle">
-                    <h1 class = "center" >Latest Podcast</h1>
-                    <p class = "text-invert center podcast-title">Worship That Changes The World</p>
-                    <button class="btn btn-v2 center">Listen Now</button>
+<?php if( have_rows('header_image_settings') ): ?>
+    <?php while( have_rows('header_image_settings') ): the_row(); ?>
+        <div class="grid-container full-width">
+            <div class="grid-x grid-padding-x full-background <?php the_sub_field('header_size'); ?>" style = "background: linear-gradient(
+                    rgba(0, 0, 0, <?php the_sub_field('transparency_filter'); ?>),
+                    rgba(0, 0, 0, <?php the_sub_field('transparency_filter'); ?>)
+                    ),url(<?php the_sub_field('header_background'); ?>);
+                    background-position: <?php the_sub_field('image_alignment'); ?> center;
+                    background-repeat: no-repeat;
+                    background-attachment: scroll;
+                    background-size: cover;">
+                <div class="small-12 cell">
+                    <div class="content-middle width-large">
+                        <h1 class = "center" ><?php the_field('page_title'); ?></h1>
+                        <p class = "text-invert center podcast-title">Worship that Changes the World</p>
+                        <button class="btn btn-v2 center">Watch Now</button>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
+    <?php endwhile; ?>
+<?php endif; ?>
 
 
 

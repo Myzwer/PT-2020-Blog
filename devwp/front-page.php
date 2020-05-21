@@ -13,12 +13,12 @@
 
 get_header(); ?>
 
-    <video src="http://pt-blog-2020.local/wp-content/uploads/2020/05/HOMEPAGE-Background.mp4" autoplay loop playsinline muted></video>
+    <video src="<?php the_field('video_background'); ?>" autoplay loop playsinline muted></video>
 
     <div class="viewport-header">
         <div class="head-container">
-            <div class="headline"><h1>Dr. Trent Stewart</h1></div>
-            <div class="knockout-logo"><img src="http://pt-blog-2020.local/wp-content/uploads/2020/04/outline-logo.png"></div>
+            <div class="headline"><h1>"<?php the_field('page_title'); ?></h1></div>
+            <div class="knockout-logo"><img src=""<?php the_field('logo'); ?>"></div>
         </div>
     </div>
 
