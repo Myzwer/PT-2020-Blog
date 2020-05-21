@@ -13,7 +13,7 @@
 
 get_header(); ?>
 
-    <video src="http://pt-blog-2020.local/wp-content/uploads/2020/04/Blog-Background-Tinted.mp4" autoplay loop playsinline muted></video>
+    <video src="http://pt-blog-2020.local/wp-content/uploads/2020/05/HOMEPAGE-Background.mp4" autoplay loop playsinline muted></video>
 
     <div class="viewport-header">
         <div class="head-container">

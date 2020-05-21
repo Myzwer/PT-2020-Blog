@@ -14,7 +14,10 @@
 get_header(); ?>
 
     <div class="grid-container full-width">
-        <div class="grid-x grid-padding-x full-background full-background-xl" style = "background: url(http://pt-blog-2020.local/wp-content/uploads/2020/04/Consulting-header.jpg);  background-position: top center;background-repeat: no-repeat;background-attachment: scroll; background-size: cover;">
+        <div class="grid-x grid-padding-x full-background full-background-xl" style = "background: linear-gradient(
+      rgba(0, 0, 0, 0.25),
+      rgba(0, 0, 0, 0.25)
+    ),url(http://pt-blog-2020.local/wp-content/uploads/2020/05/CONSULT.jpg);  background-position: center center;">
             <div class="small-12 cell">
                 <div class="content-middle width-large">
                     <h1 class = "center" >Consulting</h1>

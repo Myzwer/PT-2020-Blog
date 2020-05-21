@@ -17,7 +17,7 @@ setup_postdata($post);
         <div class="grid-x grid-padding-x full-background" style = "background: linear-gradient(
       rgba(0, 0, 0, 0.45),
       rgba(0, 0, 0, 0.45)
-    ),url(http://pt-blog-2020.local/wp-content/uploads/2020/05/Watch-Header.jpg);  background-position: top center;">
+    ),url(http://pt-blog-2020.local/wp-content/uploads/2020/05/WATCH.jpg);  background-position: top center;">
             <div class="large-12 cell">
                 <div class="content-middle">
                     <h1 class = "center" >Latest Video</h1>
