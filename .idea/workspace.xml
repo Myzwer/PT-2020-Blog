@@ -3,11 +3,23 @@
   <component name="ChangeListManager">
     <list default="true" id="053c30ea-41d6-43a4-9236-366eb4cc3d4d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/devwp/about.php" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/about.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/devwp/archive-broadcast.php" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/archive-broadcast.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/devwp/archive-podcast.php" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/archive-podcast.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/devwp/consulting.php" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/consulting.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/devwp/contact.php" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/contact.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dev-gulp/gulpfile.js" beforeDir="false" afterPath="$PROJECT_DIR$/dev-gulp/gulpfile.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dev-gulp/node_modules/gulp/node_modules/gulp-cli/gulp.1" beforeDir="false" afterPath="$PROJECT_DIR$/dev-gulp/node_modules/gulp/node_modules/gulp-cli/gulp.1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dev-gulp/node_modules/gulp/node_modules/gulp-cli/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/dev-gulp/node_modules/gulp/node_modules/gulp-cli/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dev-gulp/node_modules/gulp/node_modules/gulp-cli/lib/shared/get-blacklist.js" beforeDir="false" afterPath="$PROJECT_DIR$/dev-gulp/node_modules/gulp/node_modules/gulp-cli/lib/shared/get-blacklist.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dev-gulp/node_modules/gulp/node_modules/gulp-cli/lib/versioned/^4.0.0-alpha.1/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/dev-gulp/node_modules/gulp/node_modules/gulp-cli/lib/versioned/^4.0.0-alpha.1/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dev-gulp/node_modules/gulp/node_modules/gulp-cli/lib/versioned/^4.0.0-alpha.2/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/dev-gulp/node_modules/gulp/node_modules/gulp-cli/lib/versioned/^4.0.0-alpha.2/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dev-gulp/node_modules/gulp/node_modules/gulp-cli/lib/versioned/^4.0.0/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/dev-gulp/node_modules/gulp/node_modules/gulp-cli/lib/versioned/^4.0.0/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dev-gulp/node_modules/gulp/node_modules/gulp-cli/lib/versioned/^4.0.0/log/sync-task.js" beforeDir="false" afterPath="$PROJECT_DIR$/dev-gulp/node_modules/gulp/node_modules/gulp-cli/lib/versioned/^4.0.0/log/sync-task.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dev-gulp/node_modules/gulp/node_modules/gulp-cli/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/dev-gulp/node_modules/gulp/node_modules/gulp-cli/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dev-gulp/node_modules/gulp/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/dev-gulp/node_modules/gulp/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dev-gulp/node_modules/interpret/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/dev-gulp/node_modules/interpret/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dev-gulp/node_modules/interpret/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/dev-gulp/node_modules/interpret/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dev-gulp/node_modules/interpret/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/dev-gulp/node_modules/interpret/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dev-gulp/node_modules/v8flags/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/dev-gulp/node_modules/v8flags/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dev-gulp/node_modules/v8flags/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/dev-gulp/node_modules/v8flags/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dev-gulp/node_modules/v8flags/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/dev-gulp/node_modules/v8flags/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dev-gulp/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/dev-gulp/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/devwp/front-page.php" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/front-page.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -16,9 +28,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ComposerSettings">
-    <execution>
-      <executable />
-    </execution>
+    <execution />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -35,10 +45,10 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -58,18 +68,6 @@
       <recent name="$PROJECT_DIR$/devwp" />
       <recent name="$PROJECT_DIR$/devwp/sass/navigation" />
     </key>
-  </component>
-  <component name="ServiceViewManager">
-    <option name="viewStates">
-      <list>
-        <serviceView>
-          <treeState>
-            <expand />
-            <select />
-          </treeState>
-        </serviceView>
-      </list>
-    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -100,12 +98,13 @@
       <workItem from="1588701309987" duration="15498000" />
       <workItem from="1589214243671" duration="1176000" />
       <workItem from="1589228690803" duration="10170000" />
-      <workItem from="1589830704495" duration="4090000" />
+      <workItem from="1589830704495" duration="4909000" />
+      <workItem from="1591211646070" duration="40000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
   </component>
   <component name="WindowStateProjectService">
     <state x="383" y="253" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1581402591690">

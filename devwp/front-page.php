@@ -17,8 +17,8 @@ get_header(); ?>
 
     <div class="viewport-header">
         <div class="head-container">
-            <div class="headline"><h1>"<?php the_field('page_title'); ?></h1></div>
-            <div class="knockout-logo"><img src=""<?php the_field('logo'); ?>"></div>
+            <div class="headline"><h1><?php the_field('page_title'); ?></h1></div>
+            <div class="knockout-logo"><img src="<?php the_field('logo'); ?>"></div>
         </div>
     </div>
 

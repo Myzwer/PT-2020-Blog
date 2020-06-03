@@ -93,7 +93,7 @@ function javascript() {
 function watch() {
     browserSync.init({
         open:'external',
-        proxy: 'pt-blog-2020.local', //switch this to whatever local generates
+        proxy: 'pt-blog.local', //switch this to whatever local generates
         port: 3000
     });
 
