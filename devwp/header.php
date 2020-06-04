@@ -22,7 +22,7 @@
 <div class="topnav" id="myTopnav">
     <div class = "logo">
         <a href="#">
-            <img src = "http://pt-blog-2020.local/wp-content/uploads/2020/04/icon-dark.png" alt = "logo">
+            <img src = "http://pt-blog.local/wp-content/uploads/2020/04/icon-dark.png" alt = "logo">
         </a>
     </div>
 

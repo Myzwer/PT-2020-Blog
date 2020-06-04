@@ -54,7 +54,7 @@ get_header(); ?>
         <div class = "grid-container padding-bottom padding-top">
             <div class="grid-x grid-padding-x primary-background">
                 <div class="large-12 cell padding-top padding-bottom">
-                    <img src="http://pt-blog-2020.local/wp-content/uploads/2020/04/Trent-Family-Photo-rectangle-1024x687-1.jpg" alt="">
+                    <img src="http://pt-blog.local/wp-content/uploads/2020/04/Trent-Family-Photo-rectangle-1024x687-1.jpg" alt="">
                 </div>
             </div>
         </div>
@@ -64,7 +64,7 @@ get_header(); ?>
         <div class="grid-x grid-padding-x full-background " style = "background: linear-gradient(
       rgba(0, 0, 0, 0.45),
       rgba(0, 0, 0, 0.45)
-    ),url(http://pt-blog-2020.local/wp-content/uploads/2020/04/Watch-Page.jpg);   background-position: center center;background-repeat: no-repeat;background-attachment: scroll; background-size: cover;">
+    ),url(http://pt-blog.local/wp-content/uploads/2020/04/Watch-Page.jpg);   background-position: center center;background-repeat: no-repeat;background-attachment: scroll; background-size: cover;">
             <div class="small-12 cell">
                 <div class="content-middle">
                     <h1 class = "center" >Let's Be Social</h1>

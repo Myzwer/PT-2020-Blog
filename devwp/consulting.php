@@ -231,7 +231,7 @@ get_header(); ?>
                     <h3 class = "center">// Meet the Team</h3>
                 </div>
                 <div class="small-12 medium-6 cell margin-top main-background rounded-corners">
-                    <img class = "rounded-corners-top" src="http://pt-blog-2020.local/wp-content/uploads/2020/04/PT-About-Section.jpg" alt="">
+                    <img class = "rounded-corners-top" src="http://pt-blog.local/wp-content/uploads/2020/04/PT-About-Section.jpg" alt="">
                     <div class="add-padding">
                         <h3>Dr. Trent Stewart</h3>
                         <h5>Lead Pastor at Foothills Church</h5>
@@ -246,7 +246,7 @@ get_header(); ?>
                 </div>
 
                 <div class="small-12 medium-6 cell margin-top main-background rounded-corners">
-                    <img class = "rounded-corners-top" src="http://pt-blog-2020.local/wp-content/uploads/2020/04/RS-About-Section.jpg" alt="">
+                    <img class = "rounded-corners-top" src="http://pt-blog.local/wp-content/uploads/2020/04/RS-About-Section.jpg" alt="">
                     <div class="add-padding">
                         <h3>Dr. Ron Stewart</h3>
                         <h5>Former Lead Pastor At Grace Baptist Church</h5>
@@ -267,7 +267,7 @@ get_header(); ?>
         <div class="grid-x grid-padding-x full-background " style = "background: linear-gradient(
       rgba(0, 0, 0, 0.45),
       rgba(0, 0, 0, 0.45)
-    ),url(http://pt-blog-2020.local/wp-content/uploads/2020/04/Watch-Page.jpg);   background-position: center center;background-repeat: no-repeat;background-attachment: scroll; background-size: cover;">
+    ),url(http://pt-blog.local/wp-content/uploads/2020/04/Watch-Page.jpg);   background-position: center center;background-repeat: no-repeat;background-attachment: scroll; background-size: cover;">
             <div class="small-12 cell">
                 <div class="content-middle">
                     <h1 class = "center" >Let's Be Social</h1>

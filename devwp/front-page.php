@@ -45,7 +45,7 @@ get_header(); ?>
         <div class="grid-x grid-padding-x full-background" style = "background: linear-gradient(
       rgba(0, 0, 0, 0.45),
       rgba(0, 0, 0, 0.45)
-    ),url(http://pt-blog-2020.local/wp-content/uploads/2020/04/Homepage-Background-scaled-1.jpg);  background-position: center center;">
+    ),url(http://pt-blog.local/wp-content/uploads/2020/04/Homepage-Background-scaled-1.jpg);  background-position: center center;">
             <div class="large-12 cell">
                 <div class="content-middle">
                     <h1 class = "center" >Watch Pastor Trent Live</h1>

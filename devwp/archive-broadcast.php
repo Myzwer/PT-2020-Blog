@@ -51,7 +51,7 @@ setup_postdata($post);
 
                 <div class="small-12 medium-6 large-4 cell podcast-card margin-bottom">
                     <a href="http://192.168.1.191:3000/example-single-post/">
-                        <img src="http://pt-blog-2020.local/wp-content/uploads/2020/04/PT-About-Section.jpg" alt="">
+                        <img src="http://pt-blog.local/wp-content/uploads/2020/04/PT-About-Section.jpg" alt="">
                     </a>
                     <div class="add-padding">
                         <a href = "http://192.168.1.191:3000/example-single-post/">
@@ -77,7 +77,7 @@ setup_postdata($post);
 
                 <div class="small-12 medium-6 large-4 cell podcast-card margin-bottom">
                     <a href="#">
-                        <img src="http://pt-blog-2020.local/wp-content/uploads/2020/04/PT-About-Section.jpg" alt="">
+                        <img src="http://pt-blog.local/wp-content/uploads/2020/04/PT-About-Section.jpg" alt="">
                     </a>
                     <div class="add-padding">
                         <a href = "#">
