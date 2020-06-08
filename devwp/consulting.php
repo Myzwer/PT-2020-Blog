@@ -118,7 +118,7 @@ get_header(); ?>
                 <div class="small-12 center padding-top primary-background padding-bottom rounded-corners margin-bottom">
                     <h3 class = "center">// The Packages</h3>
                 </div>
-                <div class="small-12 margin-top medium-4 cell padding-top inverted-background rounded-corners">
+                <div class="small-12 margin-top medium-4 cell padding-top primary-background rounded-corners box-shadow">
                     <div class="center detail-table">
                         <i class="fas fa-laptop table-icon"></i>
                         <h3>Virtual Consulting</h3>
@@ -154,7 +154,7 @@ get_header(); ?>
                 </div>
 
 
-                <div class="small-12 medium-4 cell margin-top padding-top table-featured rounded-corners">
+                <div class="small-12 medium-4 cell margin-top padding-top primary-background rounded-corners box-shadow">
                     <div class="center detail-table">
                         <i class="fas fa-chart-bar table-icon"></i>
                         <h3>Specialized Consultation</h3>
@@ -188,7 +188,7 @@ get_header(); ?>
                     </div>
                 </div>
 
-                <div class="small-12 medium-4 cell margin-top padding-top inverted-background rounded-corners">
+                <div class="small-12 medium-4 cell margin-top padding-top primary-background rounded-corners box-shadow">
                     <div class="center detail-table">
                         <i class="fas fa-clipboard-list table-icon"></i>
                         <h3>Comprehensive Consultation</h3>
