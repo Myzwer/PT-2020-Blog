@@ -51,6 +51,7 @@ setup_postdata($post);
 
 
 
+
                 <?php
                 // WP_Query arguments
                 $args = array (
@@ -73,7 +74,6 @@ setup_postdata($post);
                 $broadcasts = new WP_Query( $args );
 
 
-
                 // The Loop
                 if ( $broadcasts->have_posts() ) {
                     while ( $broadcasts->have_posts() ) {
@@ -82,7 +82,7 @@ setup_postdata($post);
                         //Setup the Card. This is the outer container
                         echo"<div class=\"small-12 medium-6 large-4 cell podcast-card margin-bottom position-relative\">";
 
-                        //add the thumbnail
+                        //add the thumbnail and link
                         echo "<a href='";
                         the_permalink();
                         echo "'>";
