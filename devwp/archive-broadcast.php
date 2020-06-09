@@ -49,44 +49,80 @@ setup_postdata($post);
                     </div>
                 </div>
 
-                <div class="small-12 medium-6 large-4 cell podcast-card margin-bottom">
-                    <a href="http://192.168.1.191:3000/example-single-post/">
-                        <img src="http://pt-blog.local/wp-content/uploads/2020/04/PT-About-Section.jpg" alt="">
-                    </a>
-                    <div class="add-padding">
-                        <a href = "http://192.168.1.191:3000/example-single-post/">
-                            <h4 class = "capitalize text-color">No Other Gospel</h4>
-                        </a>
-                        <p class = "no-margin no-padding">May 3, 2020</p>
-                        <p class = "no-margin no-padding category-box">Sermon</p>
-                    </div>
-                </div>
 
-                <div class="small-12 medium-6 large-4  cell podcast-card margin-bottom">
-                    <a href="#">
-                        <img src="https://b16b64e9fc79863eb097-2d57ced7297adfa11a0f9d9e6bf0a0a1.ssl.cf2.rackcdn.com/uploaded/c/0e10006853_1584821214_coronavirus-updates.jpg" alt="">
-                    </a>
-                    <div class="add-padding">
-                        <a href = "#">
-                            <h4 class = "capitalize text-color">COVID-19 Update #4</h4>
-                        </a>
-                        <p class = "no-margin no-padding">May 1, 2020</p>
-                        <p class = "no-margin no-padding category-box">Updates</p>
-                    </div>
-                </div>
 
-                <div class="small-12 medium-6 large-4 cell podcast-card margin-bottom">
-                    <a href="#">
-                        <img src="http://pt-blog.local/wp-content/uploads/2020/04/PT-About-Section.jpg" alt="">
-                    </a>
-                    <div class="add-padding">
-                        <a href = "#">
-                            <h4 class = "capitalize text-color">How to Worship in a Socially Distanced World: Instagram Live Interview</h4>
-                        </a>
-                        <p class = "no-margin no-padding">April 15, 2020</p>
-                        <p class = "no-margin no-padding category-box">Development</p>
-                    </div>
-                </div>
+                <?php
+                // WP_Query arguments
+                $args = array (
+                    'post_type'              => array( 'broadcast' ),
+                    'post_status'            => array( 'publish' ),
+                    'nopaging'               => false,
+                    'order'                  => 'DESC',
+                    'orderby'                => 'date',
+                    'paged' => ( get_query_var( 'paged' ) ) ? get_query_var( 'paged' ) : 1,
+                    'tax_query'              => array(
+                        array(
+                            'taxonomy'               =>'format',
+                            'terms'                  =>'videos',
+                            'field'                  =>'slug'
+                        )
+                    )
+                );
+
+                // The Query
+                $broadcasts = new WP_Query( $args );
+
+
+
+                // The Loop
+                if ( $broadcasts->have_posts() ) {
+                    while ( $broadcasts->have_posts() ) {
+                        $broadcasts->the_post();
+
+                        //Setup the Card. This is the outer container
+                        echo"<div class=\"small-12 medium-6 large-4 cell podcast-card margin-bottom position-relative\">";
+
+                        //add the thumbnail
+                        echo "<a href='";
+                        the_permalink();
+                        echo "'>";
+                        the_post_thumbnail();
+                        echo "</a>";
+
+                        // Add padding around the entire container
+                        echo "<div class=\"add-padding\">";
+                            //Add the Title and get the permalink.
+                            echo '<h4 class = "capitalize text-color"><a href="' . get_permalink() . '">' . get_the_title() . '</a></h4>';
+
+                            //Force the date and category to the bottom
+                            echo "<div class=\"bottom-align\">";
+
+                                //Add the date
+                                echo "<p class = \"no-margin no-padding\">";
+                                echo get_the_date();
+                                echo"</p>";
+
+                                //Add the Category
+                                echo "<p class = \"no-margin no-padding category-box\">";
+                                $terms = get_the_terms( $post->ID , 'watch_category' );
+
+                                foreach ( $terms as $term ) {
+                                    echo $term->name;
+                                }
+                                echo "</p>";
+
+                            echo "</div>";
+                        echo "</div>";
+                    echo "</div>";
+                    }
+                } else {
+                    echo 'there are no posts.'; // no posts found
+                }
+
+                // Restore original Post Data
+                wp_reset_postdata();
+                ?>
+
             </div>
         </div>
     </div>

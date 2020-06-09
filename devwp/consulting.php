@@ -118,7 +118,7 @@ get_header(); ?>
                 <div class="small-12 center padding-top primary-background padding-bottom rounded-corners margin-bottom">
                     <h3 class = "center">// The Packages</h3>
                 </div>
-                <div class="small-12 margin-top medium-4 cell padding-top primary-background rounded-corners box-shadow">
+                <div class="small-12 margin-top medium-4 cell padding-top primary-background rounded-corners">
                     <div class="center detail-table">
                         <i class="fas fa-laptop table-icon"></i>
                         <h3>Virtual Consulting</h3>
@@ -154,7 +154,7 @@ get_header(); ?>
                 </div>
 
 
-                <div class="small-12 medium-4 cell margin-top padding-top primary-background rounded-corners box-shadow">
+                <div class="small-12 medium-4 cell margin-top padding-top primary-background rounded-corners">
                     <div class="center detail-table">
                         <i class="fas fa-chart-bar table-icon"></i>
                         <h3>Specialized Consultation</h3>
@@ -188,7 +188,7 @@ get_header(); ?>
                     </div>
                 </div>
 
-                <div class="small-12 medium-4 cell margin-top padding-top primary-background rounded-corners box-shadow">
+                <div class="small-12 medium-4 cell margin-top padding-top primary-background rounded-corners">
                     <div class="center detail-table">
                         <i class="fas fa-clipboard-list table-icon"></i>
                         <h3>Comprehensive Consultation</h3>
@@ -267,15 +267,12 @@ get_header(); ?>
         <div class="grid-x grid-padding-x full-background " style = "background: linear-gradient(
       rgba(0, 0, 0, 0.45),
       rgba(0, 0, 0, 0.45)
-    ),url(http://pt-blog.local/wp-content/uploads/2020/04/Watch-Page.jpg);   background-position: center center;background-repeat: no-repeat;background-attachment: scroll; background-size: cover;">
+    ),url(http://pt-blog.local/wp-content/uploads/2020/06/Consult-Footer.jpg);   background-position: top right;background-repeat: no-repeat;background-attachment: scroll; background-size: cover;">
             <div class="small-12 cell">
                 <div class="content-middle">
-                    <h1 class = "center" >Let's Be Social</h1>
-                    <div class = "text-invert socials center">
-                        <a href="#"><i class="fab fa-facebook"></i></a>
-                        <a href="#"><i class="fab fa-twitter"></i></a>
-                        <a href="#"><i class="fab fa-instagram"></i></a>
-                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    <h1 class = "center" >Get Started</h1>
+                    <div class="margin-bottom">
+                        <button class="center no-margin btn btn-v2">Contact The Team</button>
                     </div>
                 </div>
             </div>
