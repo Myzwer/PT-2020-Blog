@@ -40,14 +40,14 @@ setup_postdata($post);
         <div class = "grid-container padding-bottom padding-top">
             <div class="grid-x grid-margin-x">
 
-                <div class="small-12 medium-6 medium-offset-6 cell margin-bottom">
+                <!--<div class="small-12 medium-6 medium-offset-6 cell margin-bottom">
                     <div class = "filter-box">Filter by:
                         <p class = " category-box">All</p>
                         <p class = " category-box">Sermons</p>
                         <p class = " category-box">Development</p>
                         <p class = " category-box">Updates</p>
                     </div>
-                </div>
+                </div>-->
 
 
 

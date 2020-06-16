@@ -16,19 +16,32 @@ get_header();
         </div>
     </div>
 
+
     <div class="full-width main-background">
         <div class = "grid-container padding-bottom padding-top">
             <div class="grid-x grid-padding-x primary-background">
                 <div class="small-12 large-7 cell padding-top padding-bottom">
                     <div class="videoWrapper">
-                        <iframe width="560" height="315" src="https://www.youtube.com/embed/Dx_-knMEpdc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <?php the_field('podcast_link'); ?>
                     </div>
                 </div>
                 <div class="small-12 large-5 cell padding-top">
-                    <h2>No Other Gospel</h2>
-                    <p class = "no-padding no-margin">Small exerpt from this or maybe a quote or a bottom line or something.</p>
-                    <p class="no-padding padding-top">May 5, 2020</p>
-                    <?php if ( function_exists( 'ADDTOANY_SHARE_SAVE_KIT' ) ) { ADDTOANY_SHARE_SAVE_KIT(); } ?>
+                    <h2 class = "no-margin"><?php echo the_title(); ?></h2>
+                    <p class="no-padding bold"><?php the_date();?></p>
+
+                    <hr>
+                    <div class = "no-padding no-margin excerpt-paragraph">
+                         <?php
+                            if ( have_posts() ) :
+                            while ( have_posts() ) : the_post();
+                            the_content();
+                            endwhile;
+                            else:
+                                _e( 'Sorry, no posts matched your criteria.', 'textdomain' );
+                            endif;
+                         ?>
+                    </div>
+                    <hr>
                 </div>
             </div>
         </div>
@@ -38,17 +51,28 @@ get_header();
         <div class = "grid-container padding-bottom">
             <div class="grid-x grid-padding-x primary-background add-padding">
                 <div class="large-4 cell">
-                    <button class="btn btn-v1 center">Previous Video</button>
+                    <?php next_post_link('%link', '<button class="btn btn-v1 center">Next Video</button>'); ?>
                 </div>
                 <div class="large-4 cell">
-                    <button class="btn btn-v1 center">All Videos</button>
+                    <a href="http://192.168.1.242:3000/watch/">
+                        <button class="btn btn-v1 center">All Videos</button>
+                    </a>
                 </div>
                 <div class="large-4 cell">
-                    <button class="btn btn-v1 center">Next Video</button>
+                    <a href="">
+                        <?php previous_post_link('%link', '<button class="btn btn-v1 center">Previous Video</button>'); ?>
+                    </a>
                 </div>
             </div>
         </div>
     </div>
+
+
+
+
+
+
+
 
 
 
