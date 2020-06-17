@@ -19,8 +19,14 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="053c30ea-41d6-43a4-9236-366eb4cc3d4d" name="Default Changelist" comment="Added next and previous post functions to the single broadcast pages. Still need to figure out why they show podcasts as well. Also removed categories from broadcasts for the time being.">
+    <list default="true" id="053c30ea-41d6-43a4-9236-366eb4cc3d4d" name="Default Changelist" comment="Added margin to the buttons on single-broadcast.php to help with mobile alignment as well as overall design.">
+      <change afterPath="$PROJECT_DIR$/devwp/sass/navigation/_pagination.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/devwp/archive-broadcast.php" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/archive-broadcast.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/devwp/dist/css/main.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/dist/css/main.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/devwp/dist/css/maps/main.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/dist/css/maps/main.min.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/devwp/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/devwp/sass/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/sass/main.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/devwp/single-broadcast.php" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/single-broadcast.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -103,7 +109,7 @@
       <workItem from="1591211646070" duration="1731000" />
       <workItem from="1591628232663" duration="117000" />
       <workItem from="1591628371684" duration="21937000" />
-      <workItem from="1592319309024" duration="4292000" />
+      <workItem from="1592319309024" duration="11163000" />
     </task>
     <task id="LOCAL-00001" summary="Added next and previous post functions to the single broadcast pages. Still need to figure out why they show podcasts as well. Also removed categories from broadcasts for the time being.">
       <created>1592324062831</created>
@@ -112,7 +118,14 @@
       <option name="project" value="LOCAL" />
       <updated>1592324062831</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Added margin to the buttons on single-broadcast.php to help with mobile alignment as well as overall design.">
+      <created>1592324411426</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1592324411426</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -131,13 +144,14 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added next and previous post functions to the single broadcast pages. Still need to figure out why they show podcasts as well. Also removed categories from broadcasts for the time being." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added next and previous post functions to the single broadcast pages. Still need to figure out why they show podcasts as well. Also removed categories from broadcasts for the time being." />
+    <MESSAGE value="Added margin to the buttons on single-broadcast.php to help with mobile alignment as well as overall design." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added margin to the buttons on single-broadcast.php to help with mobile alignment as well as overall design." />
   </component>
   <component name="WindowStateProjectService">
-    <state x="357" y="182" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1591642749147">
+    <state x="357" y="182" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1592400969027">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
-    <state x="357" y="182" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1792.1097@0.23.1792.1097" timestamp="1591642749147" />
+    <state x="357" y="182" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1792.1097@0.23.1792.1097" timestamp="1592400969027" />
     <state x="467" y="324" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1585544834414">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
@@ -158,9 +172,10 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="387" y="204" key="run.anything.popup/0.23.1440.877@0.23.1440.877" timestamp="1587664095905" />
-    <state x="382" y="212" width="670" height="676" key="search.everywhere.popup" timestamp="1587567043808">
-      <screen x="0" y="23" width="1440" height="877" />
+    <state x="475" y="259" width="834" height="846" key="search.everywhere.popup" timestamp="1592332565153">
+      <screen x="0" y="23" width="1792" height="1097" />
     </state>
     <state x="382" y="212" width="670" height="676" key="search.everywhere.popup/0.23.1440.877@0.23.1440.877" timestamp="1587567043808" />
+    <state x="475" y="259" width="834" height="846" key="search.everywhere.popup/0.23.1792.1097@0.23.1792.1097" timestamp="1592332565153" />
   </component>
 </project>

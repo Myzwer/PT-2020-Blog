@@ -37,6 +37,16 @@ setup_postdata($post);
 <?php endif; ?>
 
     <div class="full-width main-background">
+        <div class = "grid-container padding-top padding-bottom">
+            <div class="grid-x grid-padding-x grid-margin-x">
+                <div class="small-12 center padding-top primary-background padding-bottom rounded-corners margin-bottom">
+                    <h3 class = "center">Other Videos</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="full-width main-background">
         <div class = "grid-container padding-bottom padding-top">
             <div class="grid-x grid-margin-x">
 
@@ -115,18 +125,61 @@ setup_postdata($post);
                         echo "</div>";
                     echo "</div>";
                     }
+
+                    echo "<div class='grid-container full-width'>";
+                        echo "<div class='grid-x grid-padding-x'>";
+                            echo "<div class='small-12 cell center pagination'>";
+                                echo "<ul>";
+                                echo paginate_links( array(
+                                    'base'         => str_replace( 999999999, '%#%', esc_url( get_pagenum_link( 999999999 ) ) ),
+                                    'total'        => $broadcasts->max_num_pages,
+                                    'current'      => max( 1, get_query_var( 'paged' ) ),
+                                    'format'       => '?paged=%#%',
+                                    'show_all'     => false,
+                                    'type'         => 'list',
+                                    'end_size'     => 2,
+                                    'mid_size'     => 1,
+                                    'prev_next'    => true,
+                                    'prev_text'    => sprintf( '<i></i> %1$s', __( 'Newer Videos', 'text-domain' ) ),
+                                    'next_text'    => sprintf( '%1$s <i></i>', __( 'Older Videos', 'text-domain' ) ),
+                                    'add_args'     => false,
+                                    'add_fragment' => '',
+                                ) );
+                                echo "</ul>";
+                            echo "</div>";
+                        echo "</div>";
+                    echo "</div>";
+
+
+
                 } else {
                     echo 'there are no posts.'; // no posts found
                 }
 
                 // Restore original Post Data
                 wp_reset_postdata();
+
                 ?>
 
             </div>
         </div>
     </div>
 
+    <div class="grid-container full-width">
+        <div class="grid-x grid-padding-x full-background " style = "background: linear-gradient(
+      rgba(0, 0, 0, 0.75),
+      rgba(0, 0, 0, 0.75)
+    ),url(http://pt-blog.local/wp-content/uploads/2020/06/Youtube-Background-copy.jpg);   background-position: top right;background-repeat: no-repeat;background-attachment: scroll; background-size: cover;">
+            <div class="small-12 cell">
+                <div class="content-middle">
+                    <h1 class = "center" >Subscribe on Youtube</h1>
+                    <div class="margin-bottom">
+                        <button class="center no-margin btn btn-v2">Stay Updated!</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
 <?php
 
