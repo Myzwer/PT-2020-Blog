@@ -19,11 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="053c30ea-41d6-43a4-9236-366eb4cc3d4d" name="Default Changelist" comment="More work on pagination and making the Watch and Watch Single pages dynamic. Pagination actually works now and the single pages can parse through vidoes and not include the podcasts.">
-      <change afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+    <list default="true" id="053c30ea-41d6-43a4-9236-366eb4cc3d4d" name="Default Changelist" comment="Got the header on the watch page to be dynamically updated when new posts are added.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/devwp/archive-broadcast.php" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/archive-broadcast.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/devwp/single-broadcast.php" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/single-broadcast.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/devwp/archive-podcast.php" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/archive-podcast.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -116,7 +114,7 @@
       <workItem from="1591211646070" duration="1731000" />
       <workItem from="1591628232663" duration="117000" />
       <workItem from="1591628371684" duration="21937000" />
-      <workItem from="1592319309024" duration="20097000" />
+      <workItem from="1592319309024" duration="24786000" />
     </task>
     <task id="LOCAL-00001" summary="Added next and previous post functions to the single broadcast pages. Still need to figure out why they show podcasts as well. Also removed categories from broadcasts for the time being.">
       <created>1592324062831</created>
@@ -139,7 +137,14 @@
       <option name="project" value="LOCAL" />
       <updated>1592401765807</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Got the header on the watch page to be dynamically updated when new posts are added.">
+      <created>1592492630506</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1592492630506</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -160,7 +165,8 @@
     <MESSAGE value="Added next and previous post functions to the single broadcast pages. Still need to figure out why they show podcasts as well. Also removed categories from broadcasts for the time being." />
     <MESSAGE value="Added margin to the buttons on single-broadcast.php to help with mobile alignment as well as overall design." />
     <MESSAGE value="More work on pagination and making the Watch and Watch Single pages dynamic. Pagination actually works now and the single pages can parse through vidoes and not include the podcasts." />
-    <option name="LAST_COMMIT_MESSAGE" value="More work on pagination and making the Watch and Watch Single pages dynamic. Pagination actually works now and the single pages can parse through vidoes and not include the podcasts." />
+    <MESSAGE value="Got the header on the watch page to be dynamically updated when new posts are added." />
+    <option name="LAST_COMMIT_MESSAGE" value="Got the header on the watch page to be dynamically updated when new posts are added." />
   </component>
   <component name="WindowStateProjectService">
     <state x="579" y="222" key="#archive-broadcast.php" timestamp="1592489365638">
