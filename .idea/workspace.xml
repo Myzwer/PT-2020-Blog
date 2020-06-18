@@ -19,14 +19,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="053c30ea-41d6-43a4-9236-366eb4cc3d4d" name="Default Changelist" comment="Added margin to the buttons on single-broadcast.php to help with mobile alignment as well as overall design.">
-      <change afterPath="$PROJECT_DIR$/devwp/sass/navigation/_pagination.scss" afterDir="false" />
+    <list default="true" id="053c30ea-41d6-43a4-9236-366eb4cc3d4d" name="Default Changelist" comment="More work on pagination and making the Watch and Watch Single pages dynamic. Pagination actually works now and the single pages can parse through vidoes and not include the podcasts.">
+      <change afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/devwp/archive-broadcast.php" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/archive-broadcast.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/devwp/dist/css/main.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/dist/css/main.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/devwp/dist/css/maps/main.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/dist/css/maps/main.min.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/devwp/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/devwp/sass/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/sass/main.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/devwp/single-broadcast.php" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/single-broadcast.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -69,12 +65,23 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/devwp" />
       <recent name="$PROJECT_DIR$/devwp/sass/navigation" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="archive-broadcast.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/devwp/archive-broadcast.php">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="PHP Script.archive-broadcast.php" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -109,7 +116,7 @@
       <workItem from="1591211646070" duration="1731000" />
       <workItem from="1591628232663" duration="117000" />
       <workItem from="1591628371684" duration="21937000" />
-      <workItem from="1592319309024" duration="11163000" />
+      <workItem from="1592319309024" duration="20097000" />
     </task>
     <task id="LOCAL-00001" summary="Added next and previous post functions to the single broadcast pages. Still need to figure out why they show podcasts as well. Also removed categories from broadcasts for the time being.">
       <created>1592324062831</created>
@@ -125,7 +132,14 @@
       <option name="project" value="LOCAL" />
       <updated>1592324411426</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="More work on pagination and making the Watch and Watch Single pages dynamic. Pagination actually works now and the single pages can parse through vidoes and not include the podcasts.">
+      <created>1592401765807</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1592401765807</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -145,9 +159,14 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added next and previous post functions to the single broadcast pages. Still need to figure out why they show podcasts as well. Also removed categories from broadcasts for the time being." />
     <MESSAGE value="Added margin to the buttons on single-broadcast.php to help with mobile alignment as well as overall design." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added margin to the buttons on single-broadcast.php to help with mobile alignment as well as overall design." />
+    <MESSAGE value="More work on pagination and making the Watch and Watch Single pages dynamic. Pagination actually works now and the single pages can parse through vidoes and not include the podcasts." />
+    <option name="LAST_COMMIT_MESSAGE" value="More work on pagination and making the Watch and Watch Single pages dynamic. Pagination actually works now and the single pages can parse through vidoes and not include the podcasts." />
   </component>
   <component name="WindowStateProjectService">
+    <state x="579" y="222" key="#archive-broadcast.php" timestamp="1592489365638">
+      <screen x="0" y="23" width="1792" height="1097" />
+    </state>
+    <state x="579" y="222" key="#archive-broadcast.php/0.23.1792.1097@0.23.1792.1097" timestamp="1592489365638" />
     <state x="357" y="182" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1592400969027">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
@@ -160,6 +179,10 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="538" y="381" key="NewPhpFileDialog/0.23.1440.877@0.23.1440.877" timestamp="1589304904752" />
+    <state x="394" y="159" key="SettingsEditor" timestamp="1592491579348">
+      <screen x="0" y="23" width="1792" height="1097" />
+    </state>
+    <state x="394" y="159" key="SettingsEditor/0.23.1792.1097@0.23.1792.1097" timestamp="1592491579348" />
     <state x="419" y="314" key="com.intellij.ide.util.TipDialog" timestamp="1589830720843">
       <screen x="0" y="23" width="1440" height="877" />
     </state>

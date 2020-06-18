@@ -27,8 +27,33 @@ setup_postdata($post);
                 <div class="small-12 cell">
                     <div class="content-middle width-large">
                         <h1 class = "center" ><?php the_field('page_title'); ?></h1>
-                        <p class = "text-invert center podcast-title">No Other Gospel</p>
-                        <button class="btn btn-v2 center">Watch Now</button>
+
+                        <?php
+                        //Drop into php to call the latest post title and link
+                        $recent_posts = wp_get_recent_posts(array(
+                            'post_type'   => 'broadcast',
+                            'numberposts' => 1, // Number of recent posts thumbnails to display
+                            'post_status' => 'publish', // Show only the published posts
+                            'tax_query'   => array( // Only Show the video posts, not podcasts.
+                                array(
+                                    'taxonomy'               =>'format',
+                                    'terms'                  =>'videos',
+                                    'field'                  =>'slug'
+                                ),
+                            ),
+                        ),
+                    );
+
+                    foreach($recent_posts as $post) : ?>
+                        <p class = "text-invert center podcast-title">
+                            <?php echo $post['post_title'] ?>
+                        </p>
+
+                        <a href="<?php echo get_permalink($post['ID']) ?>">
+                            <button class="btn btn-v2 center">Watch Now</button>
+                        </a>
+                    <?php endforeach; wp_reset_query(); ?>
+
                     </div>
                 </div>
             </div>
@@ -174,12 +199,17 @@ setup_postdata($post);
                 <div class="content-middle">
                     <h1 class = "center" >Subscribe on Youtube</h1>
                     <div class="margin-bottom">
+                        <a target="_blank" href="https://www.youtube.com/channel/UC2_Vo0eFmYaMq3SiA0PQLaQ?sub_confirmation=1">
                         <button class="center no-margin btn btn-v2">Stay Updated!</button>
+                        </a>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+
+
+
 
 <?php
 
