@@ -141,8 +141,10 @@ setup_postdata($post);
                                 echo "<p class = \"no-margin no-padding category-box\">";
                                 $terms = get_the_terms( $post->ID , 'watch_category' );
 
-                                foreach ( $terms as $term ) {
-                                    echo $term->name;
+                                if(is_array($terms)) {
+                                    foreach ($terms as $term) {
+                                        echo $term->name;
+                                    }
                                 }
                                 echo "</p>";
 
