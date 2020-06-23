@@ -45,7 +45,7 @@ setup_postdata($post);
                     );
 
                     foreach($recent_posts as $post) : ?>
-                        <p class = "text-invert center podcast-title">
+                        <p class = "text-invert center podcast-title capitalize">
                             <?php echo $post['post_title'] ?>
                         </p>
 

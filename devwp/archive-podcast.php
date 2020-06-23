@@ -44,7 +44,7 @@ setup_postdata($post);
                         );
 
                         foreach($recent_posts as $post) : ?>
-                            <p class = "text-invert center podcast-title">
+                            <p class = "text-invert center podcast-title capitalize">
                                 <?php echo $post['post_title'] ?>
                             </p>
 
@@ -186,12 +186,12 @@ setup_postdata($post);
         <div class="grid-x grid-padding-x full-background " style = "background: linear-gradient(
       rgba(0, 0, 0, 0.75),
       rgba(0, 0, 0, 0.75)
-    ),url(http://pt-blog.local/wp-content/uploads/2020/06/Youtube-Background-copy.jpg);   background-position: top right;background-repeat: no-repeat;background-attachment: scroll; background-size: cover;">
+    ),url(http://pt-blog.local/wp-content/uploads/2020/06/Screen-Shot-2020-06-22-at-4.19.44-PM-copy-scaled.jpg);   background-position: top right;background-repeat: no-repeat;background-attachment: scroll; background-size: cover;">
             <div class="small-12 cell">
                 <div class="content-middle">
-                    <h1 class = "center" >Subscribe on Youtube</h1>
+                    <h1 class = "center" >Listen on Apple Podcasts</h1>
                     <div class="margin-bottom">
-                        <a target="_blank" href="https://www.youtube.com/channel/UC2_Vo0eFmYaMq3SiA0PQLaQ?sub_confirmation=1">
+                        <a target="_blank" href="https://podcasts.apple.com/us/podcast/the-ascent-podcast/id1465251039">
                             <button class="center no-margin btn btn-v2">Stay Updated!</button>
                         </a>
                     </div>
