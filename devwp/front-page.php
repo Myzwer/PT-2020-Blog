@@ -78,7 +78,7 @@ get_header(); ?>
                     <p class = "no-margin no-padding padding-bottom height-lock">Pastor Trent Stewart has more than two decades of experience in full-time ministry. He and his family reside in the Knoxville area.</p>
                     <div class="margin-bottom">
                         <a href="/about">
-                            <button class="center no-margin btn btn-v1">Watch Now</button>
+                            <button class="center no-margin btn btn-v1">Read More</button>
                         </a>
                     </div>
                 </div>
@@ -88,7 +88,7 @@ get_header(); ?>
                     <p class = "no-margin no-padding padding-bottom">Need to ask a question? Want a consultation? Got something on your mind? Let our team know how we can help.</p>
                     <div class="margin-bottom">
                         <a href="/contact">
-                            <button class="center no-margin btn btn-v1">Watch Now</button>
+                            <button class="center no-margin btn btn-v1">Reach Out</button>
                         </a>
                     </div>
                 </div>
