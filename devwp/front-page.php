@@ -49,7 +49,7 @@ get_header(); ?>
             <div class="large-12 cell">
                 <div class="content-middle">
                     <h1 class = "center" >Watch Pastor Trent Live</h1>
-                    <p class = "text-invert center">Every Sunday 9am / 11am / 1pm / 3pm / 5pm / 9pm (EST)</p>
+                    <p class = "text-invert center">Every Sunday 9am & 11am (EST)</p>
                     <button class="btn btn-v2 center">Check It Out</button>
                 </div>
             </div>

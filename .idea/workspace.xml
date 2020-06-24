@@ -19,9 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="053c30ea-41d6-43a4-9236-366eb4cc3d4d" name="Default Changelist" comment="Created the privacy policy page, might need updates when final content is added though.">
+    <list default="true" id="053c30ea-41d6-43a4-9236-366eb4cc3d4d" name="Default Changelist" comment="Added a 404 page.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/devwp/404.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/devwp/front-page.php" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/front-page.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -115,7 +115,7 @@
       <workItem from="1591628232663" duration="117000" />
       <workItem from="1591628371684" duration="21937000" />
       <workItem from="1592319309024" duration="25120000" />
-      <workItem from="1592855206570" duration="19055000" />
+      <workItem from="1592855206570" duration="19414000" />
     </task>
     <task id="LOCAL-00001" summary="Added next and previous post functions to the single broadcast pages. Still need to figure out why they show podcasts as well. Also removed categories from broadcasts for the time being.">
       <created>1592324062831</created>
@@ -180,7 +180,14 @@
       <option name="project" value="LOCAL" />
       <updated>1593008546608</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Added a 404 page.">
+      <created>1593018296397</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1593018296397</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -208,7 +215,8 @@
     <MESSAGE value="Set the titles on both the podcast and video archives to auto capitalize if the user doesn't do it." />
     <MESSAGE value="Updated the single-broadcast.php page to now support podcast play." />
     <MESSAGE value="Created the privacy policy page, might need updates when final content is added though." />
-    <option name="LAST_COMMIT_MESSAGE" value="Created the privacy policy page, might need updates when final content is added though." />
+    <MESSAGE value="Added a 404 page." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added a 404 page." />
   </component>
   <component name="WindowStateProjectService">
     <state x="481" y="182" key="#CLI_Interpreters" timestamp="1593005705548">
