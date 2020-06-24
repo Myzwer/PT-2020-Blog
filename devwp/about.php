@@ -69,10 +69,10 @@ get_header(); ?>
                 <div class="content-middle">
                     <h1 class = "center" >Let's Be Social</h1>
                     <div class = "text-invert socials center">
-                        <a href="#"><i class="fab fa-facebook"></i></a>
-                        <a href="#"><i class="fab fa-twitter"></i></a>
-                        <a href="#"><i class="fab fa-instagram"></i></a>
-                        <a href="#"><i class="fab fa-youtube"></i></a>
+                        <a href="https://www.facebook.com/trentonjstewart" target="_blank"><i class="fab fa-facebook text-invert"></i></a>
+                        <a href="https://twitter.com/trentonjstewart?lang=en" target="_blank"><i class="fab fa-twitter text-invert"></i></a>
+                        <a href="https://www.instagram.com/trentonjstewart/?hl=en" target="_blank"><i class="fab fa-instagram text-invert"></i></a>
+                        <a href="https://www.youtube.com/channel/UC2_Vo0eFmYaMq3SiA0PQLaQ" target="_blank"><i class="fab fa-youtube text-invert"></i></a>
                     </div>
                 </div>
             </div>
