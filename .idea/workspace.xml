@@ -19,10 +19,15 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="053c30ea-41d6-43a4-9236-366eb4cc3d4d" name="Default Changelist" comment="Discovered on archive-broadcast.php, if the user did not supply a watch category the whole section threw a php error. added an if statement to check to see if the array was filled first.">
+    <list default="true" id="053c30ea-41d6-43a4-9236-366eb4cc3d4d" name="Default Changelist" comment="Set the titles on both the podcast and video archives to auto capitalize if the user doesn't do it.">
+      <change afterPath="$PROJECT_DIR$/devwp/sass/media/_audio.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/devwp/archive-broadcast.php" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/archive-broadcast.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/devwp/archive-podcast.php" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/archive-podcast.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/devwp/dist/css/main.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/dist/css/main.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/devwp/dist/css/maps/main.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/dist/css/maps/main.min.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/devwp/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/devwp/sass/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/sass/main.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/devwp/single-broadcast.php" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/single-broadcast.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/devwp/src/js/custom-scripts.js" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/src/js/custom-scripts.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -116,7 +121,7 @@
       <workItem from="1591628232663" duration="117000" />
       <workItem from="1591628371684" duration="21937000" />
       <workItem from="1592319309024" duration="25120000" />
-      <workItem from="1592855206570" duration="2262000" />
+      <workItem from="1592855206570" duration="10749000" />
     </task>
     <task id="LOCAL-00001" summary="Added next and previous post functions to the single broadcast pages. Still need to figure out why they show podcasts as well. Also removed categories from broadcasts for the time being.">
       <created>1592324062831</created>
@@ -160,7 +165,14 @@
       <option name="project" value="LOCAL" />
       <updated>1592500093793</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Set the titles on both the podcast and video archives to auto capitalize if the user doesn't do it.">
+      <created>1592922238281</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1592922238281</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -185,7 +197,8 @@
     <MESSAGE value="Got the header on the watch page to be dynamically updated when new posts are added." />
     <MESSAGE value="Made the Listen page dynamic as well as styled it to look like the watch page as per client request." />
     <MESSAGE value="Discovered on archive-broadcast.php, if the user did not supply a watch category the whole section threw a php error. added an if statement to check to see if the array was filled first." />
-    <option name="LAST_COMMIT_MESSAGE" value="Discovered on archive-broadcast.php, if the user did not supply a watch category the whole section threw a php error. added an if statement to check to see if the array was filled first." />
+    <MESSAGE value="Set the titles on both the podcast and video archives to auto capitalize if the user doesn't do it." />
+    <option name="LAST_COMMIT_MESSAGE" value="Set the titles on both the podcast and video archives to auto capitalize if the user doesn't do it." />
   </component>
   <component name="WindowStateProjectService">
     <state x="579" y="222" key="#archive-broadcast.php" timestamp="1592489365638">

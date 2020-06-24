@@ -23,6 +23,7 @@ get_header();
                 <div class="small-12 large-7 cell padding-top padding-bottom">
                     <div class="videoWrapper">
                         <?php the_field('video_link'); ?>
+                        <?php the_field('podcast_link'); ?>
                     </div>
                 </div>
                 <div class="small-12 large-5 cell padding-top">
@@ -66,18 +67,6 @@ get_header();
             </div>
         </div>
     </div>
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
