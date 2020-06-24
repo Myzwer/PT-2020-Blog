@@ -19,14 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="053c30ea-41d6-43a4-9236-366eb4cc3d4d" name="Default Changelist" comment="Updated the single-broadcast.php page to now support podcast play.">
-      <change afterPath="$PROJECT_DIR$/devwp/privacy-policy.php" afterDir="false" />
+    <list default="true" id="053c30ea-41d6-43a4-9236-366eb4cc3d4d" name="Default Changelist" comment="Created the privacy policy page, might need updates when final content is added though.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/devwp/archive-podcast.php" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/archive-podcast.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/devwp/dist/css/main.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/dist/css/main.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/devwp/dist/css/maps/main.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/dist/css/maps/main.min.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/devwp/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/devwp/sass/grid/_overrides.scss" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/sass/grid/_overrides.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/devwp/404.php" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -120,7 +115,7 @@
       <workItem from="1591628232663" duration="117000" />
       <workItem from="1591628371684" duration="21937000" />
       <workItem from="1592319309024" duration="25120000" />
-      <workItem from="1592855206570" duration="13288000" />
+      <workItem from="1592855206570" duration="19055000" />
     </task>
     <task id="LOCAL-00001" summary="Added next and previous post functions to the single broadcast pages. Still need to figure out why they show podcasts as well. Also removed categories from broadcasts for the time being.">
       <created>1592324062831</created>
@@ -178,7 +173,14 @@
       <option name="project" value="LOCAL" />
       <updated>1593005676817</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Created the privacy policy page, might need updates when final content is added though.">
+      <created>1593008546608</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1593008546608</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -205,7 +207,8 @@
     <MESSAGE value="Discovered on archive-broadcast.php, if the user did not supply a watch category the whole section threw a php error. added an if statement to check to see if the array was filled first." />
     <MESSAGE value="Set the titles on both the podcast and video archives to auto capitalize if the user doesn't do it." />
     <MESSAGE value="Updated the single-broadcast.php page to now support podcast play." />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated the single-broadcast.php page to now support podcast play." />
+    <MESSAGE value="Created the privacy policy page, might need updates when final content is added though." />
+    <option name="LAST_COMMIT_MESSAGE" value="Created the privacy policy page, might need updates when final content is added though." />
   </component>
   <component name="WindowStateProjectService">
     <state x="481" y="182" key="#CLI_Interpreters" timestamp="1593005705548">
@@ -224,11 +227,11 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="467" y="324" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.23.1440.877@0.23.1440.877" timestamp="1585544834414" />
-    <state x="670" y="471" key="NewPhpFileDialog" timestamp="1593006641914">
+    <state x="670" y="471" key="NewPhpFileDialog" timestamp="1593016161261">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
     <state x="538" y="381" key="NewPhpFileDialog/0.23.1440.877@0.23.1440.877" timestamp="1589304904752" />
-    <state x="670" y="471" key="NewPhpFileDialog/0.23.1792.1097@0.23.1792.1097" timestamp="1593006641914" />
+    <state x="670" y="471" key="NewPhpFileDialog/0.23.1792.1097@0.23.1792.1097" timestamp="1593016161261" />
     <state x="394" y="159" key="SettingsEditor" timestamp="1592491579348">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
