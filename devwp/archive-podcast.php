@@ -202,8 +202,4 @@ setup_postdata($post);
 
 
 
-<?php
-
-
-get_footer();
-?>
+<?php get_footer();
