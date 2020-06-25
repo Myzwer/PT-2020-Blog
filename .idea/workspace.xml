@@ -19,13 +19,13 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="053c30ea-41d6-43a4-9236-366eb4cc3d4d" name="Default Changelist" comment="Updated the consulting page with new links on the buttons. Also noticed some issues with the page that I'll need to go back and fix at a later time.">
+    <list default="true" id="053c30ea-41d6-43a4-9236-366eb4cc3d4d" name="Default Changelist" comment="More Link updates, as well as a few misc tasks. The site is functional, now onto bug testing and cross browser support.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/devwp/about.php" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/about.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/devwp/archive-broadcast.php" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/archive-broadcast.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/devwp/dist/css/main.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/dist/css/main.min.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/devwp/dist/css/maps/main.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/dist/css/maps/main.min.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/devwp/front-page.php" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/front-page.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/devwp/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/devwp/sass/globals/_knockout-logo.scss" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/sass/globals/_knockout-logo.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/devwp/sass/grid/_overrides.scss" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/sass/grid/_overrides.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -121,6 +121,7 @@
       <workItem from="1591628371684" duration="21937000" />
       <workItem from="1592319309024" duration="25120000" />
       <workItem from="1592855206570" duration="23402000" />
+      <workItem from="1593095606016" duration="4853000" />
     </task>
     <task id="LOCAL-00001" summary="Added next and previous post functions to the single broadcast pages. Still need to figure out why they show podcasts as well. Also removed categories from broadcasts for the time being.">
       <created>1592324062831</created>
@@ -213,7 +214,14 @@
       <option name="project" value="LOCAL" />
       <updated>1593029555570</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="More Link updates, as well as a few misc tasks. The site is functional, now onto bug testing and cross browser support.">
+      <created>1593095922756</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1593095922756</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -246,7 +254,8 @@
     <MESSAGE value="Realized I accidentally swapped the wrong text on when i copy/pastad some code, so I switched it back." />
     <MESSAGE value="Realized I accidentally swapped some important copy out when I copy pasta'd so I went back and fixed that" />
     <MESSAGE value="Updated the consulting page with new links on the buttons. Also noticed some issues with the page that I'll need to go back and fix at a later time." />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated the consulting page with new links on the buttons. Also noticed some issues with the page that I'll need to go back and fix at a later time." />
+    <MESSAGE value="More Link updates, as well as a few misc tasks. The site is functional, now onto bug testing and cross browser support." />
+    <option name="LAST_COMMIT_MESSAGE" value="More Link updates, as well as a few misc tasks. The site is functional, now onto bug testing and cross browser support." />
   </component>
   <component name="WindowStateProjectService">
     <state x="481" y="182" key="#CLI_Interpreters" timestamp="1593005705548">
