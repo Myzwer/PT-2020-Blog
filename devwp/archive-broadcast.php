@@ -202,7 +202,7 @@ setup_postdata($post);
                     <h1 class = "center" >Subscribe on Youtube</h1>
                     <div class="margin-bottom">
                         <a target="_blank" href="https://www.youtube.com/channel/UC2_Vo0eFmYaMq3SiA0PQLaQ?sub_confirmation=1">
-                        <button class="center no-margin btn btn-v2">Stay Updated!</button>
+                            <button class="center no-margin btn btn-v2">Stay Updated!</button>
                         </a>
                     </div>
                 </div>

@@ -46,7 +46,9 @@ get_header(); ?>
                     <p class = "no-margin no-padding padding-bottom">Prior to planting FC, Pastor Trent attended Carson Newman College on a basketball scholarship and graduated with his Bachelor of Science in Business Administration in 1999. Pastor Trent holds a Master of Divinity and a Doctorate of Ministry from The Southern Baptist Theological Seminary.
                     Pastor Trent and his wife Micah have been married for 20 years and have four children: Baylee, Bryson, Brooke, and Blakely.</p>
                     <div class="margin-bottom">
-                        <button class="center no-margin btn btn-v1">Contact Me</button>
+                        <a href="/contact">
+                            <button class="center no-margin btn btn-v1">Contact Me</button>
+                        </a>
                     </div>
                 </div>
             </div>
