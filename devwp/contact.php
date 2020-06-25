@@ -37,17 +37,20 @@ get_header(); ?>
     <div class="full-width main-background">
         <div class = "grid-container">
             <div class="grid-x grid-padding-x padding-outer">
-                <div class="small-12 medium-10 cell primary-background add-padding add-margin">
+                <div class="small-12 medium-10 cell primary-background add-padding margin-bottom margin-top">
                     <h2>Reach Out</h2>
                     <p class = "no-padding no-margin">Interested in consultation? Just wanting more information? Need to ask a question? Fill out the form below and we'll get back to you ASAP.</p>
                 </div>
-                <div class="small-12 medium-10 cell primary-background add-padding add-margin">
+
+                <div class="small-12 medium-10 cell primary-background add-padding margin-bottom">
                     <?php if ( have_posts() ) : while ( have_posts() ) : the_post();
                         the_content();
                     endwhile; else: ?>
                         <p>Sorry, no posts matched your criteria.</p>
                     <?php endif; ?>
                 </div>
+
+
             </div>
         </div>
     </div>
