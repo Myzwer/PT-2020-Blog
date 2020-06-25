@@ -37,20 +37,21 @@ get_header(); ?>
                             background-repeat: no-repeat;
                             background-attachment: scroll;
                             background-size: cover;">
-                        <div class="small-12 cell">
-                            <div class="content-middle width-large">
-                                <div class="viewport-header">
-                                    <div class="head-container">
-                                    <h1 class = "center" ><?php the_field('page_title'); ?></h1>
-                                    <div class="knockout-logo"><img src="<?php the_field('logo'); ?>">
+                            <div class="small-12 cell">
+                                <div class="content-middle width-large">
+                                    <div class="viewport-header">
+                                        <div class="head-container">
+                                        <h1 class = "center" ><?php the_field('page_title'); ?></h1>
+                                        <div class="knockout-logo"><img src="<?php the_field('logo'); ?>">
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div>
-            <?php endwhile; ?>
-        <?php endif; ?>
+                <?php endwhile; ?>
+            <?php endif; ?>
+        </div>
     </div>
 
 
@@ -77,10 +78,10 @@ get_header(); ?>
         <div class="grid-x grid-padding-x full-background" style = "background: linear-gradient(
       rgba(0, 0, 0, 0.45),
       rgba(0, 0, 0, 0.45)
-    ),url(http://pt-blog.local/wp-content/uploads/2020/04/Homepage-Background-scaled-1.jpg);  background-position: center center;">
+    ),url(http://pt-blog.local/wp-content/uploads/2020/06/Home-Socials-copy.jpg);  background-position: center center;">
             <div class="large-12 cell">
-                <div class="content-middle">
-                    <h1 class = "center" >Watch Pastor Trent Live</h1>
+                <div class="content-middle width-large">
+                    <h1 class = "center mobile-heading-small" >Watch Pastor Trent Live</h1>
                     <p class = "text-invert center">Every Sunday 9am & 11am (EST)</p>
                     <a href="http://foothillschurch.online/">
                         <button class="btn btn-v2 center">Check It Out</button>
