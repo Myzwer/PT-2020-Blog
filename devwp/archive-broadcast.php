@@ -65,7 +65,7 @@ setup_postdata($post);
         <div class = "grid-container padding-top padding-bottom">
             <div class="grid-x grid-padding-x grid-margin-x">
                 <div class="small-12 center padding-top primary-background padding-bottom rounded-corners margin-bottom">
-                    <h3 class = "center">Other Videos</h3>
+                    <h3 class = "center">All Videos</h3>
                 </div>
             </div>
         </div>

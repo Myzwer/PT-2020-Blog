@@ -52,18 +52,19 @@ get_header();
         <div class = "grid-container padding-bottom">
             <div class="grid-x grid-padding-x primary-background add-padding">
                 <div class="large-4 cell margin-bottom margin-top">
-                    <?php previous_post_link('%link', '<button class="btn btn-v1 center">Previous Video</button>', true, "", 'format'); ?>
-                </div>
-                <div class="large-4 cell margin-bottom margin-top">
-                    <a href="http://192.168.1.242:3000/watch/">
-                        <button class="btn btn-v1 center">All Videos</button>
-                    </a>
-                </div>
-                <div class="large-4 cell margin-bottom margin-top">
                     <a href="">
                         <?php next_post_link('%link', '<button class="btn btn-v1 center">Next Video</button>', true, "", 'format'); ?>
                     </a>
                 </div>
+                <div class="large-4 cell margin-bottom margin-top">
+                    <a href="/watch">
+                        <button class="btn btn-v1 center">All Videos</button>
+                    </a>
+                </div>
+                <div class="large-4 cell margin-bottom margin-top">
+                    <?php previous_post_link('%link', '<button class="btn btn-v1 center">Previous Video</button>', true, "", 'format'); ?>
+                </div>
+
             </div>
         </div>
     </div>
