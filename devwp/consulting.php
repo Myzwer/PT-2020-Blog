@@ -278,7 +278,7 @@ get_header(); ?>
     ),url(http://pt-blog.local/wp-content/uploads/2020/06/Consult-Footer.jpg);   background-position: top right;background-repeat: no-repeat;background-attachment: scroll; background-size: cover;">
             <div class="small-12 cell">
                 <div class="content-middle">
-                    <h1 class = "center" >Get Started</h1>
+                    <h1 class = "center medium-font-mobile" >Get Started</h1>
                     <div class="margin-bottom">
                         <a href="/contact">
                             <button class="center no-margin btn btn-v2">Contact The Team</button>

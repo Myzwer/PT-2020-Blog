@@ -74,6 +74,30 @@ h4 {
 }
 
 
+//*********************************************
+//*************** FONT SIZES ******************
+//*********************************************
+.small-font {
+  font-size: $small;
+}
+
+.medium-font {
+  font-size: $medium;
+}
+
+.large-font {
+  font-size: $large;
+}
+
+.xlarge-font {
+  font-size: $xlarge;
+}
+
+@media screen and (max-width: 39.9375em) {
+  .medium-font-mobile {
+      font-size: $medium;
+  }
+}
 
 //*********************************************
 //*************** PARAGRAPHS ******************

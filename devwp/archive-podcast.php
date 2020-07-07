@@ -189,7 +189,7 @@ setup_postdata($post);
     ),url(http://pt-blog.local/wp-content/uploads/2020/06/Screen-Shot-2020-06-22-at-4.19.44-PM-copy-scaled.jpg);   background-position: top right;background-repeat: no-repeat;background-attachment: scroll; background-size: cover;">
             <div class="small-12 cell">
                 <div class="content-middle">
-                    <h1 class = "center" >Listen on Apple Podcasts</h1>
+                    <h1 class = "center medium-font-mobile">Listen on Apple Podcasts</h1>
                     <div class="margin-bottom">
                         <a target="_blank" href="https://podcasts.apple.com/us/podcast/the-ascent-podcast/id1465251039">
                             <button class="center no-margin btn btn-v2">Stay Updated!</button>

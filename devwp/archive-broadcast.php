@@ -199,7 +199,7 @@ setup_postdata($post);
     ),url(http://pt-blog.local/wp-content/uploads/2020/06/Youtube-Background-copy.jpg);   background-position: top right;background-repeat: no-repeat;background-attachment: scroll; background-size: cover;">
             <div class="small-12 cell">
                 <div class="content-middle">
-                    <h1 class = "center" >Subscribe on Youtube</h1>
+                    <h1 class = "center medium-font-mobile" >Subscribe on Youtube</h1>
                     <div class="margin-bottom">
                         <a target="_blank" href="https://www.youtube.com/channel/UC2_Vo0eFmYaMq3SiA0PQLaQ?sub_confirmation=1">
                             <button class="center no-margin btn btn-v2">Stay Updated!</button>
