@@ -45,7 +45,7 @@ get_header(); ?>
                     In 2018, Pastor Trent and the FC staff unveiled the 2020 Vision for FC, which includes the vision to Multiply Campuses, Multiply Leaders, and Multiply Resources. Part of this vision is to plant a campus in the Knoxville area, build a counseling center on campus, and renovate the current building for kids and students.</p>
                     <p class = "no-margin ">Prior to planting FC, Pastor Trent attended Carson Newman College on a basketball scholarship and graduated with his Bachelor of Science in Business Administration in 1999. Pastor Trent holds a Master of Divinity and a Doctorate of Ministry from The Southern Baptist Theological Seminary.
                     Pastor Trent and his wife Micah have been married for 20 years and have four children: Baylee, Bryson, Brooke, and Blakely.</p>
-                    <div class="margin-bottom">
+                    <div class="margin-bottom soft-center">
                         <a href="/contact">
                             <button class="center no-margin btn btn-v1">Contact Me</button>
                         </a>

@@ -49,9 +49,11 @@ setup_postdata($post);
                             <?php echo $post['post_title'] ?>
                         </p>
 
-                        <a href="<?php echo get_permalink($post['ID']) ?>">
-                            <button class="btn btn-v2 center">Watch Now</button>
-                        </a>
+                        <div class="center">
+                            <a href="<?php echo get_permalink($post['ID']) ?>">
+                                <button class="btn btn-v2 center">Watch Now</button>
+                            </a>
+                        </div>
                     <?php endforeach; wp_reset_query(); ?>
 
                     </div>
@@ -200,7 +202,7 @@ setup_postdata($post);
             <div class="small-12 cell">
                 <div class="content-middle">
                     <h1 class = "center medium-font-mobile" >Subscribe on Youtube</h1>
-                    <div class="margin-bottom">
+                    <div class="margin-bottom soft-center">
                         <a target="_blank" href="https://www.youtube.com/channel/UC2_Vo0eFmYaMq3SiA0PQLaQ?sub_confirmation=1">
                             <button class="center no-margin btn btn-v2">Stay Updated!</button>
                         </a>

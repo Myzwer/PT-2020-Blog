@@ -63,7 +63,7 @@ get_header(); ?>
                 <hr>
                 <h4 class = "center text-color">Helping churches create healthy environments that grow healthy ministries</h4>
                 <p class = "no-margin no-padding add-padding">Every church is unique and requires a tailored approach. With our detailed consultation process, our team aims to create a healthy state that will lead to a culture of multiplying disciples for God's Kingdom to advance. I love God's Church, and we desire to see disciples created for His glory. There is no secret to growth. However, we do know God will do his part. The question remains, 'Will you do yours?'</p>
-                <div class="margin-bottom">
+                <div class="margin-bottom soft-center">
                     <a href="/consulting">
                         <button class="center no-margin btn btn-v1">Grow My Ministry</button>
                     </a>
@@ -83,9 +83,11 @@ get_header(); ?>
                 <div class="content-middle width-large">
                     <h1 class = "center mobile-heading-small" >Watch Pastor Trent Live</h1>
                     <p class = "text-invert center">Every Sunday 9am & 11am (EST)</p>
-                    <a href="http://foothillschurch.online/">
-                        <button class="btn btn-v2 center">Check It Out</button>
-                    </a>
+                    <div class="center">
+                        <a href="http://foothillschurch.online/">
+                            <button class="btn btn-v2 center">Check It Out</button>
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>
@@ -97,7 +99,7 @@ get_header(); ?>
                 <div class="small-12 medium-6 cell padding-top primary-background">
                     <h2>// Videos</h2>
                     <p class = "no-margin no-padding padding-bottom height-lock">Sermons, updates, leadership insights and more. Find all the content you need to propel your church into growth.</p>
-                    <div class="margin-bottom">
+                    <div class="margin-bottom center">
                         <a href="/watch">
                             <button class="center no-margin btn btn-v1">Watch Now</button>
                         </a>
@@ -107,7 +109,7 @@ get_header(); ?>
                 <div class="small-12 medium-6 cell padding-top primary-background">
                     <h2>// About</h2>
                     <p class = "no-margin no-padding padding-bottom height-lock">Pastor Trent Stewart has more than two decades of experience in full-time ministry. He and his family reside in the Knoxville area.</p>
-                    <div class="margin-bottom">
+                    <div class="margin-bottom soft-center">
                         <a href="/about">
                             <button class="center no-margin btn btn-v1">Read More</button>
                         </a>
@@ -117,7 +119,7 @@ get_header(); ?>
                 <div class="small-12 cell padding-top primary-background">
                     <h2>// Contact</h2>
                     <p class = "no-margin no-padding padding-bottom">Need to ask a question? Want a consultation? Got something on your mind? Let our team know how we can help.</p>
-                    <div class="margin-bottom">
+                    <div class="margin-bottom soft-center">
                         <a href="/contact">
                             <button class="center no-margin btn btn-v1">Reach Out</button>
                         </a>

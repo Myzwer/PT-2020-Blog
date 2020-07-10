@@ -48,9 +48,11 @@ setup_postdata($post);
                                 <?php echo $post['post_title'] ?>
                             </p>
 
-                            <a href="<?php echo get_permalink($post['ID']) ?>">
-                                <button class="btn btn-v2 center">Watch Now</button>
-                            </a>
+                            <div class="center">
+                                <a href="<?php echo get_permalink($post['ID']) ?>">
+                                    <button class="btn btn-v2 center">Listen Now</button>
+                                </a>
+                            </div>
                         <?php endforeach; wp_reset_query(); ?>
                     </div>
                 </div>
@@ -66,7 +68,7 @@ setup_postdata($post);
         <div class = "grid-container padding-top padding-bottom">
             <div class="grid-x grid-padding-x grid-margin-x">
                 <div class="small-12 center padding-top primary-background padding-bottom rounded-corners margin-bottom">
-                    <h3 class = "center">Other Videos</h3>
+                    <h3 class = "center">All Podcasts</h3>
                 </div>
             </div>
         </div>
@@ -190,7 +192,7 @@ setup_postdata($post);
             <div class="small-12 cell">
                 <div class="content-middle">
                     <h1 class = "center medium-font-mobile">Listen on Apple Podcasts</h1>
-                    <div class="margin-bottom">
+                    <div class="margin-bottom soft-center">
                         <a target="_blank" href="https://podcasts.apple.com/us/podcast/the-ascent-podcast/id1465251039">
                             <button class="center no-margin btn btn-v2">Stay Updated!</button>
                         </a>

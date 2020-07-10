@@ -19,15 +19,17 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="053c30ea-41d6-43a4-9236-366eb4cc3d4d" name="Default Changelist" comment="Updated some text on broadcast-archive.php, as well as flipped the button order on the single pages. It made more logical sense that the next button follow the way the grid flows from the previous page.">
+    <list default="true" id="053c30ea-41d6-43a4-9236-366eb4cc3d4d" name="Default Changelist" comment="Updated the font sizes on most of the image footers, made them smaller and less bulky on mobile.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/devwp/about.php" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/about.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/devwp/archive-broadcast.php" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/archive-broadcast.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/devwp/archive-podcast.php" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/archive-podcast.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/devwp/consulting.php" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/consulting.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/devwp/dist/css/main.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/dist/css/main.min.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/devwp/dist/css/maps/main.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/dist/css/maps/main.min.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/devwp/front-page.php" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/front-page.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/devwp/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/devwp/sass/globals/_typography.scss" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/sass/globals/_typography.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/devwp/sass/globals/_buttons.scss" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/sass/globals/_buttons.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -125,7 +127,7 @@
       <workItem from="1593095606016" duration="9483000" />
       <workItem from="1593550681108" duration="129000" />
       <workItem from="1593750440974" duration="1042000" />
-      <workItem from="1594150593503" duration="1428000" />
+      <workItem from="1594150593503" duration="4086000" />
     </task>
     <task id="LOCAL-00001" summary="Added next and previous post functions to the single broadcast pages. Still need to figure out why they show podcasts as well. Also removed categories from broadcasts for the time being.">
       <created>1592324062831</created>
@@ -260,7 +262,14 @@
       <option name="project" value="LOCAL" />
       <updated>1593754477369</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Updated the font sizes on most of the image footers, made them smaller and less bulky on mobile.">
+      <created>1594153834642</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1594153834642</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -299,7 +308,8 @@
     <MESSAGE value="Updated the about template name from about me to about." />
     <MESSAGE value="Contact Page wiggled really bad on mobile due to some margin issues, so I resolved those." />
     <MESSAGE value="Updated some text on broadcast-archive.php, as well as flipped the button order on the single pages. It made more logical sense that the next button follow the way the grid flows from the previous page." />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated some text on broadcast-archive.php, as well as flipped the button order on the single pages. It made more logical sense that the next button follow the way the grid flows from the previous page." />
+    <MESSAGE value="Updated the font sizes on most of the image footers, made them smaller and less bulky on mobile." />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated the font sizes on most of the image footers, made them smaller and less bulky on mobile." />
   </component>
   <component name="WindowStateProjectService">
     <state x="481" y="182" key="#CLI_Interpreters" timestamp="1593005705548">
@@ -314,10 +324,6 @@
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
     <state x="357" y="182" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1792.1097@0.23.1792.1097" timestamp="1592400969027" />
-    <state x="467" y="324" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1585544834414">
-      <screen x="0" y="23" width="1440" height="877" />
-    </state>
-    <state x="467" y="324" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.23.1440.877@0.23.1440.877" timestamp="1585544834414" />
     <state x="670" y="471" key="NewPhpFileDialog" timestamp="1593016161261">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
@@ -331,6 +337,10 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="419" y="314" key="com.intellij.ide.util.TipDialog/0.23.1440.877@0.23.1440.877" timestamp="1589830720843" />
+    <state x="914" y="65" width="721" height="1041" key="dock-window-1" timestamp="1594351336593">
+      <screen x="0" y="23" width="1792" height="1097" />
+    </state>
+    <state x="914" y="65" width="721" height="1041" key="dock-window-1/-1920.63.1920.1057/0.23.1792.1097@0.23.1792.1097" timestamp="1594351336593" />
     <state x="594" y="153" width="598" height="735" key="find.popup" timestamp="1591814930114">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>

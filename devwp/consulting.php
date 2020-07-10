@@ -41,7 +41,7 @@ get_header(); ?>
                     <h4 class = "center text-color">Helping churches create healthy environments that grow healthy ministries</h4>
                     <hr>
                     <p class = "no-margin no-padding add-padding">Every church is unique and requires a tailored approach. With our detailed consultation process, our team aims to create a healthy state that will lead to a culture of multiplying disciples for God's Kingdom to advance. I love God's Church, and we desire to see disciples created for His glory. There is no secret to growth. However, we do know God will do his part. The question remains, 'Will you do yours?'</p>
-                    <div class="margin-bottom">
+                    <div class="margin-bottom soft-center">
                         <a href="/contact">
                             <button class="center no-margin btn btn-v1">Take My First Step</button>
                         </a>
@@ -185,7 +185,7 @@ get_header(); ?>
                             <p class = "no-padding no-padding"><i class="fas fa-check"></i> Strategic Planning</p>
                         </div>
 
-                        <div class="margin-bottom">
+                        <div class="margin-bottom soft-center">
                             <a href="/contact">
                                 <button class="center no-margin btn btn-v1">Contact The Team</button>
                             </a>
@@ -221,7 +221,7 @@ get_header(); ?>
                             <p class = "no-padding no-padding"><i class="fas fa-check"></i> Church Health Survey</p>
                         </div>
 
-                        <div class="margin-bottom">
+                        <div class="margin-bottom soft-center">
                             <a href="/contact">
                                 <button class="center no-margin btn btn-v1">Contact The Team</button>
                             </a>
@@ -279,7 +279,7 @@ get_header(); ?>
             <div class="small-12 cell">
                 <div class="content-middle">
                     <h1 class = "center medium-font-mobile" >Get Started</h1>
-                    <div class="margin-bottom">
+                    <div class="margin-bottom soft-center">
                         <a href="/contact">
                             <button class="center no-margin btn btn-v2">Contact The Team</button>
                         </a>
