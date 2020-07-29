@@ -62,7 +62,7 @@ get_header(); ?>
                 <h2 class = " center">// Consulting</h2>
                 <hr>
                 <h4 class = "center text-color">Helping churches create healthy environments that grow healthy ministries</h4>
-                <p class = "no-margin no-padding add-padding">Every church is unique and requires a tailored approach. With our detailed consultation process, our team aims to create a healthy state that will lead to a culture of multiplying disciples for God's Kingdom to advance. I love God's Church, and we desire to see disciples created for His glory. There is no secret to growth. However, we do know God will do his part. The question remains, 'Will you do yours?'</p>
+                <p class = "no-margin no-padding add-padding">Every church is unique and requires a tailored approach. With our detailed consultation process, our team aims to create a healthy environment that will lead to a culture of multiplying disciples for God's Kingdom. I love God's Church, and we desire to see disciples created for His glory. There is no secret to growth. However, we do know God will do his part. The question remains, 'Will you do yours?’</p>
                 <div class="margin-bottom soft-center">
                     <a href="/consulting">
                         <button class="center no-margin btn btn-v1">Grow My Ministry</button>
@@ -78,7 +78,7 @@ get_header(); ?>
         <div class="grid-x grid-padding-x full-background" style = "background: linear-gradient(
       rgba(0, 0, 0, 0.45),
       rgba(0, 0, 0, 0.45)
-    ),url(http://pt-blog.local/wp-content/uploads/2020/06/Home-Socials-copy.jpg);  background-position: center center;">
+    ),url(https://trentstewart.org/wp-content/uploads/2020/07/Home-Socials-copy.jpg);  background-position: center center;">
             <div class="large-12 cell">
                 <div class="content-middle width-large">
                     <h1 class = "center mobile-heading-small" >Watch Pastor Trent Live</h1>
@@ -99,7 +99,7 @@ get_header(); ?>
                 <div class="small-12 medium-6 cell padding-top primary-background">
                     <h2>// Videos</h2>
                     <p class = "no-margin no-padding padding-bottom height-lock">Sermons, updates, leadership insights and more. Find all the content you need to propel your church into growth.</p>
-                    <div class="margin-bottom center">
+                    <div class="margin-bottom soft-center">
                         <a href="/watch">
                             <button class="center no-margin btn btn-v1">Watch Now</button>
                         </a>
@@ -118,7 +118,7 @@ get_header(); ?>
 
                 <div class="small-12 cell padding-top primary-background">
                     <h2>// Contact</h2>
-                    <p class = "no-margin no-padding padding-bottom">Need to ask a question? Want a consultation? Got something on your mind? Let our team know how we can help.</p>
+                    <p class = "no-margin no-padding padding-bottom">Have questions about consultation? Reach out to our team and we would love to answer any questions you have.</p>
                     <div class="margin-bottom soft-center">
                         <a href="/contact">
                             <button class="center no-margin btn btn-v1">Reach Out</button>

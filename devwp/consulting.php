@@ -40,7 +40,7 @@ get_header(); ?>
                 <div class="large-12 cell padding-top">
                     <h4 class = "center text-color">Helping churches create healthy environments that grow healthy ministries</h4>
                     <hr>
-                    <p class = "no-margin no-padding add-padding">Every church is unique and requires a tailored approach. With our detailed consultation process, our team aims to create a healthy state that will lead to a culture of multiplying disciples for God's Kingdom to advance. I love God's Church, and we desire to see disciples created for His glory. There is no secret to growth. However, we do know God will do his part. The question remains, 'Will you do yours?'</p>
+                    <p class = "no-margin no-padding add-padding">Every church is unique and requires a tailored approach. With our detailed consultation process, our team aims to create a healthy environment that will lead to a culture of multiplying disciples for God’s Kingdom. I love God’s Church, and we desire to see disciples created for His glory. There is no secret to growth. However, we do know God will do his part. The question remains, ‘Will you do yours?’</p>
                     <div class="margin-bottom soft-center">
                         <a href="/contact">
                             <button class="center no-margin btn btn-v1">Take My First Step</button>
@@ -66,7 +66,7 @@ get_header(); ?>
                             </div>
                             <h3 class = "center padding-top">Contact</h3>
                             <hr>
-                            <p class = "center no-padding no-margin padding-bottom">You know us. Let us get to know you. The first step to being a difference maker in your church is reaching out.</p>
+                            <p class = "center no-padding no-margin padding-bottom">The first step to bring about change in your church is reaching out. Contact us, we would love to help.</p>
                         </div>
 
                         <div class="small-12 medium-4 cell padding-top margin-top-xl primary-background process-box">
@@ -84,7 +84,7 @@ get_header(); ?>
                             </div>
                             <h3 class = "center padding-top">Proposal</h3>
                             <hr>
-                            <p class = "center no-padding no-margin padding-bottom">After we create a plan, we'll pitch a proposal that not only fits in your budget, but crushes your goals.</p>
+                            <p class = "center no-padding no-margin padding-bottom">After we create a plan, we’ll pitch a proposal that not only fits in your budget, but meets and exceeds your goals.</p>
                         </div>
 
                         <div class="small-12 medium-4 medium-4 medium-offset-2 cell padding-top margin-top-xl primary-background process-box">
@@ -102,7 +102,7 @@ get_header(); ?>
                             </div>
                             <h3 class = "center padding-top">Recommendation</h3>
                             <hr>
-                            <p class = "center no-padding no-margin padding-bottom">Now it's your turn! We'll give you a digital copy of your plan and you can impact your ministry!</p>
+                            <p class = "center no-padding no-margin padding-bottom">Now it’s your turn! We’ll give you a digital copy of your plan and you can begin the process of growing your ministry!</p>
                         </div>
                     </div>
                 </div>
@@ -239,7 +239,7 @@ get_header(); ?>
                     <h3 class = "center">// Meet the Team</h3>
                 </div>
                 <div class="small-12 medium-6 cell margin-top main-background rounded-corners">
-                    <img class = "rounded-corners-top" src="http://pt-blog.local/wp-content/uploads/2020/04/PT-About-Section.jpg" alt="">
+                    <img class = "rounded-corners-top" src="https://trentstewart.org/wp-content/uploads/2020/07/Consult-PT.jpg" alt="">
                     <div class="add-padding">
                         <h3>Dr. Trent Stewart</h3>
                         <h5>Lead Pastor at Foothills Church</h5>
@@ -254,7 +254,7 @@ get_header(); ?>
                 </div>
 
                 <div class="small-12 medium-6 cell margin-top main-background rounded-corners">
-                    <img class = "rounded-corners-top" src="http://pt-blog.local/wp-content/uploads/2020/04/RS-About-Section.jpg" alt="">
+                    <img class = "rounded-corners-top" src="https://trentstewart.org/wp-content/uploads/2020/07/Consult-Ron.jpg" alt="">
                     <div class="add-padding">
                         <h3>Dr. Ron Stewart</h3>
                         <h5>Former Lead Pastor At Grace Baptist Church</h5>
@@ -275,7 +275,7 @@ get_header(); ?>
         <div class="grid-x grid-padding-x full-background " style = "background: linear-gradient(
       rgba(0, 0, 0, 0.45),
       rgba(0, 0, 0, 0.45)
-    ),url(http://pt-blog.local/wp-content/uploads/2020/06/Consult-Footer.jpg);   background-position: top right;background-repeat: no-repeat;background-attachment: scroll; background-size: cover;">
+    ),url(https://trentstewart.org/wp-content/uploads/2020/07/Consult-Footer.jpg);   background-position: top right;background-repeat: no-repeat;background-attachment: scroll; background-size: cover;">
             <div class="small-12 cell">
                 <div class="content-middle">
                     <h1 class = "center medium-font-mobile" >Get Started</h1>

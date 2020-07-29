@@ -56,7 +56,7 @@ get_header(); ?>
         <div class = "grid-container padding-bottom padding-top">
             <div class="grid-x grid-padding-x primary-background">
                 <div class="large-12 cell padding-top padding-bottom">
-                    <img src="http://pt-blog.local/wp-content/uploads/2020/04/Trent-Family-Photo-rectangle-1024x687-1.jpg" alt="">
+                    <img src="https://trentstewart.org/wp-content/uploads/2020/07/About-Family-Photo.jpg" alt="">
                 </div>
             </div>
         </div>
@@ -66,10 +66,10 @@ get_header(); ?>
         <div class="grid-x grid-padding-x full-background " style = "background: linear-gradient(
       rgba(0, 0, 0, 0.45),
       rgba(0, 0, 0, 0.45)
-    ),url(http://pt-blog.local/wp-content/uploads/2020/04/Watch-Page.jpg);   background-position: center center;background-repeat: no-repeat;background-attachment: scroll; background-size: cover;">
+    ),url(https://trentstewart.org/wp-content/uploads/2020/07/Home-Socials.jpg);   background-position: center center;background-repeat: no-repeat;background-attachment: scroll; background-size: cover;">
             <div class="small-12 cell">
                 <div class="content-middle full-width">
-                    <h1 class = "center mobile-heading-small" >Let's Be Social</h1>
+                    <h1 class = "center mobile-heading-small" >Stay Connected</h1>
                     <div class = "text-invert socials center">
                         <a href="https://www.facebook.com/trentonjstewart" target="_blank"><i class="fab fa-facebook text-invert"></i></a>
                         <a href="https://twitter.com/trentonjstewart?lang=en" target="_blank"><i class="fab fa-twitter text-invert"></i></a>
