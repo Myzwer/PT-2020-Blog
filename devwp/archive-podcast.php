@@ -39,8 +39,8 @@ setup_postdata($post);
                                     'terms'                  =>'podcasts',
                                     'field'                  =>'slug'
                                 ),
-                            ),
-                        ),
+                            )
+                        )
                         );
 
                         foreach($recent_posts as $post) : ?>

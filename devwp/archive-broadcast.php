@@ -40,8 +40,8 @@ setup_postdata($post);
                                     'terms'                  =>'videos',
                                     'field'                  =>'slug'
                                 ),
-                            ),
-                        ),
+                            )
+                        )
                     );
 
                     foreach($recent_posts as $post) : ?>
