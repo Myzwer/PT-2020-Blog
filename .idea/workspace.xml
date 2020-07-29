@@ -19,9 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="053c30ea-41d6-43a4-9236-366eb4cc3d4d" name="Default Changelist" comment="Production was throwing an error because of an extra comma, removed that and its now working as expected,">
+    <list default="true" id="053c30ea-41d6-43a4-9236-366eb4cc3d4d" name="Default Changelist" comment="Both videos and podcasts use the same single-broadcast.php page, so I set up some php to switch the text and links of the buttons to be dynamic between video and podcast.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/devwp/single-broadcast.php" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/single-broadcast.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/devwp/src/js/custom-scripts.js" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/src/js/custom-scripts.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -129,7 +129,7 @@
       <workItem from="1595867942593" duration="1000" />
       <workItem from="1595867950252" duration="1000" />
       <workItem from="1595867988045" duration="2470000" />
-      <workItem from="1596043118033" duration="5675000" />
+      <workItem from="1596043118033" duration="6356000" />
     </task>
     <task id="LOCAL-00001" summary="Added next and previous post functions to the single broadcast pages. Still need to figure out why they show podcasts as well. Also removed categories from broadcasts for the time being.">
       <created>1592324062831</created>
@@ -292,7 +292,14 @@
       <option name="project" value="LOCAL" />
       <updated>1596048931729</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="Both videos and podcasts use the same single-broadcast.php page, so I set up some php to switch the text and links of the buttons to be dynamic between video and podcast.">
+      <created>1596063006347</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1596063006347</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -335,7 +342,8 @@
     <MESSAGE value="Found an issue where a display: flex on a button was causing the link to sit far outside of its bounding box. Had to edit nearly every page to erradicate this issue,  but it is fixed now." />
     <MESSAGE value="Made some copy edits for client preview." />
     <MESSAGE value="Production was throwing an error because of an extra comma, removed that and its now working as expected," />
-    <option name="LAST_COMMIT_MESSAGE" value="Production was throwing an error because of an extra comma, removed that and its now working as expected," />
+    <MESSAGE value="Both videos and podcasts use the same single-broadcast.php page, so I set up some php to switch the text and links of the buttons to be dynamic between video and podcast." />
+    <option name="LAST_COMMIT_MESSAGE" value="Both videos and podcasts use the same single-broadcast.php page, so I set up some php to switch the text and links of the buttons to be dynamic between video and podcast." />
   </component>
   <component name="WindowStateProjectService">
     <state x="481" y="182" key="#CLI_Interpreters" timestamp="1593005705548">
