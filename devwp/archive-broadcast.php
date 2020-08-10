@@ -198,7 +198,7 @@ setup_postdata($post);
         <div class="grid-x grid-padding-x full-background " style = "background: linear-gradient(
       rgba(0, 0, 0, 0.75),
       rgba(0, 0, 0, 0.75)
-    ),url(http://pt-blog.local/wp-content/uploads/2020/06/Youtube-Background-copy.jpg);   background-position: top right;background-repeat: no-repeat;background-attachment: scroll; background-size: cover;">
+    ),url(https://trentstewart.org/wp-content/uploads/2020/07/Youtube-Background-copy.jpg);   background-position: top right;background-repeat: no-repeat;background-attachment: scroll; background-size: cover;">
             <div class="small-12 cell">
                 <div class="content-middle">
                     <h1 class = "center medium-font-mobile" >Subscribe on Youtube</h1>

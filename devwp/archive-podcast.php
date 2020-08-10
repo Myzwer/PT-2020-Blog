@@ -188,7 +188,7 @@ setup_postdata($post);
         <div class="grid-x grid-padding-x full-background " style = "background: linear-gradient(
       rgba(0, 0, 0, 0.75),
       rgba(0, 0, 0, 0.75)
-    ),url(http://pt-blog.local/wp-content/uploads/2020/06/Screen-Shot-2020-06-22-at-4.19.44-PM-copy-scaled.jpg);   background-position: top right;background-repeat: no-repeat;background-attachment: scroll; background-size: cover;">
+    ),url(https://trentstewart.org/wp-content/uploads/2020/07/Screen-Shot-2020-06-22-at-4.19.44-PM-copy-1024x576-1.jpg);   background-position: top right;background-repeat: no-repeat;background-attachment: scroll; background-size: cover;">
             <div class="small-12 cell">
                 <div class="content-middle">
                     <h1 class = "center medium-font-mobile">Listen on Apple Podcasts</h1>

@@ -21,7 +21,8 @@
   <component name="ChangeListManager">
     <list default="true" id="053c30ea-41d6-43a4-9236-366eb4cc3d4d" name="Default Changelist" comment="Both videos and podcasts use the same single-broadcast.php page, so I set up some php to switch the text and links of the buttons to be dynamic between video and podcast.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/devwp/src/js/custom-scripts.js" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/src/js/custom-scripts.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/devwp/archive-broadcast.php" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/archive-broadcast.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/devwp/archive-podcast.php" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/archive-podcast.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -129,7 +130,8 @@
       <workItem from="1595867942593" duration="1000" />
       <workItem from="1595867950252" duration="1000" />
       <workItem from="1595867988045" duration="2470000" />
-      <workItem from="1596043118033" duration="6356000" />
+      <workItem from="1596043118033" duration="7110000" />
+      <workItem from="1597082909446" duration="2506000" />
     </task>
     <task id="LOCAL-00001" summary="Added next and previous post functions to the single broadcast pages. Still need to figure out why they show podcasts as well. Also removed categories from broadcasts for the time being.">
       <created>1592324062831</created>
