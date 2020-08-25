@@ -56,7 +56,7 @@ get_header(); ?>
         <div class = "grid-container padding-bottom padding-top">
             <div class="grid-x grid-padding-x primary-background">
                 <div class="large-12 cell padding-top padding-bottom">
-                    <img src="https://trentstewart.org/wp-content/uploads/2020/07/About-Family-Photo.jpg" alt="">
+                    <img class = "border-radius" src="https://trentstewart.org/wp-content/uploads/2020/07/About-Family-Photo.jpg" alt="">
                 </div>
             </div>
         </div>

@@ -19,9 +19,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="053c30ea-41d6-43a4-9236-366eb4cc3d4d" name="Default Changelist" comment="Made a few minor tweaks to the listen and watch pages.">
+    <list default="true" id="053c30ea-41d6-43a4-9236-366eb4cc3d4d" name="Default Changelist" comment="front-page.php has been completely updated to ACF, making all the content dynamic.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/devwp/front-page.php" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/front-page.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/devwp/about.php" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/about.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/devwp/sass/globals/_backgrounds.scss" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/sass/globals/_backgrounds.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -131,7 +132,7 @@
       <workItem from="1595867988045" duration="2470000" />
       <workItem from="1596043118033" duration="7110000" />
       <workItem from="1597082909446" duration="5809000" />
-      <workItem from="1598361598306" duration="1484000" />
+      <workItem from="1598361598306" duration="1888000" />
     </task>
     <task id="LOCAL-00001" summary="Added next and previous post functions to the single broadcast pages. Still need to figure out why they show podcasts as well. Also removed categories from broadcasts for the time being.">
       <created>1592324062831</created>
@@ -308,7 +309,14 @@
       <option name="project" value="LOCAL" />
       <updated>1597090332251</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="front-page.php has been completely updated to ACF, making all the content dynamic.">
+      <created>1598363467086</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1598363467086</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -327,7 +335,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Added margin to the buttons on single-broadcast.php to help with mobile alignment as well as overall design." />
     <MESSAGE value="More work on pagination and making the Watch and Watch Single pages dynamic. Pagination actually works now and the single pages can parse through vidoes and not include the podcasts." />
     <MESSAGE value="Got the header on the watch page to be dynamically updated when new posts are added." />
     <MESSAGE value="Made the Listen page dynamic as well as styled it to look like the watch page as per client request." />
@@ -352,7 +359,8 @@
     <MESSAGE value="Production was throwing an error because of an extra comma, removed that and its now working as expected," />
     <MESSAGE value="Both videos and podcasts use the same single-broadcast.php page, so I set up some php to switch the text and links of the buttons to be dynamic between video and podcast." />
     <MESSAGE value="Made a few minor tweaks to the listen and watch pages." />
-    <option name="LAST_COMMIT_MESSAGE" value="Made a few minor tweaks to the listen and watch pages." />
+    <MESSAGE value="front-page.php has been completely updated to ACF, making all the content dynamic." />
+    <option name="LAST_COMMIT_MESSAGE" value="front-page.php has been completely updated to ACF, making all the content dynamic." />
   </component>
   <component name="WindowStateProjectService">
     <state x="481" y="182" key="#CLI_Interpreters" timestamp="1593005705548">
