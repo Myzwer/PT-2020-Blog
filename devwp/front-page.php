@@ -55,76 +55,112 @@ get_header(); ?>
     </div>
 
 
-<div class="full-width main-background">
-    <div class = "grid-container padding-bottom padding-top">
-        <div class="grid-x grid-padding-x primary-background">
-            <div class="large-12 cell padding-top">
-                <h2 class = " center">// Consulting</h2>
-                <hr>
-                <h4 class = "center text-color">Helping churches create healthy environments that grow healthy ministries</h4>
-                <p class = "no-margin no-padding add-padding">Every church is unique and requires a tailored approach. With our detailed consultation process, our team aims to create a healthy environment that will lead to a culture of multiplying disciples for God's Kingdom. I love God's Church, and we desire to see disciples created for His glory. There is no secret to growth. However, we do know God will do his part. The question remains, 'Will you do yours?’</p>
-                <div class="margin-bottom soft-center">
-                    <a href="/consulting">
-                        <button class="center no-margin btn btn-v1">Grow My Ministry</button>
-                    </a>
+<!-- Full Width Main Banner -->
+    <div class="full-width main-background">
+        <div class = "grid-container padding-bottom padding-top">
+            <div class="grid-x grid-padding-x primary-background">
+                <div class="large-12 cell padding-top">
+                    <h2 class = " center"><?php the_field('banner_title'); ?></h2>
+                    <hr>
+                    <h4 class = "center text-color"><?php the_field('banner_subtitle'); ?></h4>
+                    <p class = "no-margin no-padding add-padding"><?php the_field('banner_paragraph'); ?></p>
+
+                    <!-- Button Code -->
+                    <?php if( have_rows('banner_button') ): ?>
+                        <?php while( have_rows('banner_button') ): the_row(); ?>
+                            <div class="margin-bottom soft-center">
+                                <a href="<?php the_sub_field('banner_button_link'); ?>">
+                                    <button class="center no-margin btn btn-v1"><?php the_sub_field('banner_button_text'); ?></button>
+                                </a>
+                            </div>
+                        <?php endwhile; ?>
+                    <?php endif; ?>
+                    <!-- End Button Code -->
+
                 </div>
             </div>
         </div>
     </div>
-</div>
 
 
+<!-- Image Banner -->
     <div class="grid-container full-width">
         <div class="grid-x grid-padding-x full-background" style = "background: linear-gradient(
-      rgba(0, 0, 0, 0.45),
-      rgba(0, 0, 0, 0.45)
-    ),url(https://trentstewart.org/wp-content/uploads/2020/07/Home-Socials-copy.jpg);  background-position: center center;">
+      rgba(0, 0, 0, <?php the_field('watch_transparency_filter'); ?>),
+      rgba(0, 0, 0, <?php the_field('watch_transparency_filter'); ?>)
+    ),url(<?php the_field('watch_banner_background_image'); ?>);  background-position: center center;">
             <div class="large-12 cell">
                 <div class="content-middle width-large">
-                    <h1 class = "center mobile-heading-small" >Watch Pastor Trent Live</h1>
-                    <p class = "text-invert center">Every Sunday 9am & 11am (EST)</p>
-                    <div class="center">
-                        <a href="http://foothillschurch.online/">
-                            <button class="btn btn-v2 center">Check It Out</button>
-                        </a>
-                    </div>
-                </div>
+                    <h1 class = "center mobile-heading-small" ><?php the_field('watch_banner_title'); ?></h1>
+                    <p class = "text-invert center"><?php the_field('watch_banner_subtitle'); ?></p>
+
+                    <!-- Button Code -->
+                    <?php if( have_rows('watch_banner_button') ): ?>
+                        <?php while( have_rows('watch_banner_button') ): the_row(); ?>
+                            <div class="center">
+                                <a href="<?php the_sub_field('banner_button_link'); ?>" target="_blank">
+                                    <button class="btn btn-v2 center"><?php the_sub_field('banner_button_text'); ?></button>
+                                </a>
+                            </div>
+                        </div>
+                    <?php endwhile; ?>
+                <?php endif; ?>
             </div>
         </div>
     </div>
 
+
+
+<!-- Cells -->
+    <!-- 1/2 Width -->
     <div class="full-width main-background">
         <div class = "grid-container padding-bottom padding-top">
             <div class="grid-x grid-padding-x grid-margin-x grid-margin-y">
                 <div class="small-12 medium-6 cell padding-top primary-background">
-                    <h2>// Videos</h2>
-                    <p class = "no-margin no-padding padding-bottom height-lock">Sermons, updates, leadership insights and more. Find all the content you need to propel your church into growth.</p>
-                    <div class="margin-bottom soft-center">
-                        <a href="/watch">
-                            <button class="center no-margin btn btn-v1">Watch Now</button>
-                        </a>
-                    </div>
-                </div>
+                    <?php if( have_rows('half_width_cell_1') ): ?>
+                        <?php while( have_rows('half_width_cell_1') ): the_row(); ?>
+                            <h2>// <?php the_sub_field('cell_title'); ?></h2>
+                            <p class = "no-margin no-padding padding-bottom height-lock"><?php the_sub_field('cell_paragraph'); ?></p>
+                            <div class="margin-bottom soft-center">
+                                <a href="<?php the_sub_field('button_link'); ?>">
+                                    <button class="center no-margin btn btn-v1"><?php the_sub_field('button_text'); ?></button>
+                                </a>
+                            </div>
+                        </div>
+                    <?php endwhile; ?>
+                <?php endif; ?>
 
+
+                <!-- 1/2 Width -->
                 <div class="small-12 medium-6 cell padding-top primary-background">
-                    <h2>// About</h2>
-                    <p class = "no-margin no-padding padding-bottom height-lock">Pastor Trent Stewart has more than two decades of experience in full-time ministry. He and his family reside in the Knoxville area.</p>
-                    <div class="margin-bottom soft-center">
-                        <a href="/about">
-                            <button class="center no-margin btn btn-v1">Read More</button>
-                        </a>
-                    </div>
-                </div>
+                    <?php if( have_rows('half_width_cell_2') ): ?>
+                        <?php while( have_rows('half_width_cell_2') ): the_row(); ?>
+                            <h2>// <?php the_sub_field('cell_title'); ?></h2>
+                            <p class = "no-margin no-padding padding-bottom height-lock"><?php the_sub_field('cell_paragraph'); ?></p>
+                            <div class="margin-bottom soft-center">
+                                <a href="<?php the_sub_field('button_link'); ?>">
+                                    <button class="center no-margin btn btn-v1"><?php the_sub_field('button_text'); ?></button>
+                                </a>
+                            </div>
+                        </div>
+                    <?php endwhile; ?>
+                <?php endif; ?>
 
+
+                <!-- Full Width -->
                 <div class="small-12 cell padding-top primary-background">
-                    <h2>// Contact</h2>
-                    <p class = "no-margin no-padding padding-bottom">Have questions about consultation? Reach out to our team and we would love to answer any questions you have.</p>
-                    <div class="margin-bottom soft-center">
-                        <a href="/contact">
-                            <button class="center no-margin btn btn-v1">Reach Out</button>
-                        </a>
-                    </div>
-                </div>
+                    <?php if( have_rows('full_width_cell') ): ?>
+                        <?php while( have_rows('full_width_cell') ): the_row(); ?>
+                            <h2>// <?php the_sub_field('cell_title'); ?></h2>
+                            <p class = "no-margin no-padding padding-bottom"><?php the_sub_field('cell_paragraph'); ?></p>
+                            <div class="margin-bottom soft-center">
+                                <a href="<?php the_sub_field('button_link'); ?>">
+                                    <button class="center no-margin btn btn-v1"><?php the_sub_field('button_text'); ?></button>
+                                </a>
+                            </div>
+                        </div>
+                    <?php endwhile; ?>
+                <?php endif; ?>
             </div>
         </div>
     </div>
