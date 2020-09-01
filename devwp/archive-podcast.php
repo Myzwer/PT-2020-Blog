@@ -184,23 +184,38 @@ setup_postdata($post);
         </div>
     </div>
 
-    <div class="grid-container full-width">
-        <div class="grid-x grid-padding-x full-background " style = "background: linear-gradient(
-      rgba(0, 0, 0, 0.75),
-      rgba(0, 0, 0, 0.75)
-    ),url(https://trentstewart.org/wp-content/uploads/2020/07/Screen-Shot-2020-06-22-at-4.19.44-PM-copy-1024x576-1.jpg);   background-position: top right;background-repeat: no-repeat;background-attachment: scroll; background-size: cover;">
-            <div class="small-12 cell">
-                <div class="content-middle">
-                    <h1 class = "center medium-font-mobile">Listen on Apple Podcasts</h1>
-                    <div class="margin-bottom soft-center">
-                        <a target="_blank" href="https://podcasts.apple.com/us/podcast/the-ascent-podcast/id1465251039">
-                            <button class="center no-margin btn btn-v2">Stay Updated!</button>
-                        </a>
+    <!--Footer-->
+<?php if (have_rows('footer_image_settings')): ?>
+    <?php while (have_rows('footer_image_settings')): the_row(); ?>
+        <div class="grid-container full-width">
+            <div class="grid-x grid-padding-x full-background"
+                 style="background: linear-gradient(
+                         rgba(0, 0, 0, <?php the_sub_field('transparency_filter'); ?>),
+                         rgba(0, 0, 0, <?php the_sub_field('transparency_filter'); ?>)
+                         ),url(<?php the_sub_field('footer_background'); ?>);
+                         background-position: <?php the_sub_field('image_alignment'); ?> center;
+                         background-repeat: no-repeat;
+                         background-attachment: scroll;
+                         background-size: cover;">
+                <div class="small-12 cell">
+                    <div class="content-middle">
+                        <?php if (have_rows('text_cta')): ?>
+                            <?php while (have_rows('text_cta')): the_row(); ?>
+                                <h1 class="center medium-font-mobile"><?php the_sub_field('tagline'); ?></h1>
+                                <div class="margin-bottom soft-center">
+                                    <a target="_blank"
+                                       href="<?php the_sub_field('footer_button_link'); ?>">
+                                        <button class="center no-margin btn btn-v2"><?php the_sub_field('footer_button_text'); ?></button>
+                                    </a>
+                                </div>
+                            <?php endwhile; ?>
+                        <?php endif; ?>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
+    <?php endwhile; ?>
+<?php endif; ?>
 
 
 
