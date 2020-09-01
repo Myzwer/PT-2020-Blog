@@ -19,9 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="053c30ea-41d6-43a4-9236-366eb4cc3d4d" name="Default Changelist" comment="Added a new Border Radius class to target an element with give it rounded corners like the background classes do.">
+    <list default="true" id="053c30ea-41d6-43a4-9236-366eb4cc3d4d" name="Default Changelist" comment="Updated the about.php page to use ACF, making the whole thing dynamic.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/devwp/about.php" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/about.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/devwp/archive-broadcast.php" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/archive-broadcast.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -132,7 +132,7 @@
       <workItem from="1596043118033" duration="7110000" />
       <workItem from="1597082909446" duration="5809000" />
       <workItem from="1598361598306" duration="9903000" />
-      <workItem from="1598897936882" duration="3502000" />
+      <workItem from="1598897936882" duration="6559000" />
     </task>
     <task id="LOCAL-00001" summary="Added next and previous post functions to the single broadcast pages. Still need to figure out why they show podcasts as well. Also removed categories from broadcasts for the time being.">
       <created>1592324062831</created>
@@ -330,7 +330,14 @@
       <option name="project" value="LOCAL" />
       <updated>1598364108562</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="Updated the about.php page to use ACF, making the whole thing dynamic.">
+      <created>1598909980490</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1598909980490</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -349,7 +356,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Got the header on the watch page to be dynamically updated when new posts are added." />
     <MESSAGE value="Made the Listen page dynamic as well as styled it to look like the watch page as per client request." />
     <MESSAGE value="Discovered on archive-broadcast.php, if the user did not supply a watch category the whole section threw a php error. added an if statement to check to see if the array was filled first." />
     <MESSAGE value="Set the titles on both the podcast and video archives to auto capitalize if the user doesn't do it." />
@@ -374,7 +380,8 @@
     <MESSAGE value="Made a few minor tweaks to the listen and watch pages." />
     <MESSAGE value="front-page.php has been completely updated to ACF, making all the content dynamic." />
     <MESSAGE value="Added a new Border Radius class to target an element with give it rounded corners like the background classes do." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added a new Border Radius class to target an element with give it rounded corners like the background classes do." />
+    <MESSAGE value="Updated the about.php page to use ACF, making the whole thing dynamic." />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated the about.php page to use ACF, making the whole thing dynamic." />
   </component>
   <component name="WindowStateProjectService">
     <state x="481" y="182" key="#CLI_Interpreters" timestamp="1593005705548">
