@@ -19,9 +19,13 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="053c30ea-41d6-43a4-9236-366eb4cc3d4d" name="Default Changelist" comment="Updated Consulting to be completely ACF. All pages now use ACF.">
+    <list default="true" id="053c30ea-41d6-43a4-9236-366eb4cc3d4d" name="Default Changelist" comment="Updated some placement of inactive buttons on the 404 page and made them active.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/devwp/404.php" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/404.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/devwp/dist/css/main.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/dist/css/main.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/devwp/dist/css/maps/main.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/dist/css/maps/main.min.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/devwp/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/header.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/devwp/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/devwp/sass/globals/_typography.scss" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/sass/globals/_typography.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -135,7 +139,8 @@
       <workItem from="1598897936882" duration="9790000" />
       <workItem from="1599753021883" duration="8989000" />
       <workItem from="1600110675162" duration="4196000" />
-      <workItem from="1600176650704" duration="1220000" />
+      <workItem from="1600176650704" duration="1778000" />
+      <workItem from="1600283718622" duration="222000" />
     </task>
     <task id="LOCAL-00001" summary="Added next and previous post functions to the single broadcast pages. Still need to figure out why they show podcasts as well. Also removed categories from broadcasts for the time being.">
       <created>1592324062831</created>
@@ -368,7 +373,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600185282194</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="Updated some placement of inactive buttons on the 404 page and made them active.">
+      <created>1600186927025</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1600186927025</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -387,7 +399,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Created the privacy policy page, might need updates when final content is added though." />
     <MESSAGE value="Added a 404 page." />
     <MESSAGE value="Made all the buttons on the about page functional, as well as fixed a color issue with the social icons." />
     <MESSAGE value="Realized I accidentally swapped the wrong text on when i copy/pastad some code, so I switched it back." />
@@ -412,7 +423,8 @@
     <MESSAGE value="Updated the listen page to use ACF. It is completely dynamic now. Woooo" />
     <MESSAGE value="Updated the contact page to use ACF. It is completely dynamic now. Woooo" />
     <MESSAGE value="Updated Consulting to be completely ACF. All pages now use ACF." />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated Consulting to be completely ACF. All pages now use ACF." />
+    <MESSAGE value="Updated some placement of inactive buttons on the 404 page and made them active." />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated some placement of inactive buttons on the 404 page and made them active." />
   </component>
   <component name="WindowStateProjectService">
     <state x="481" y="182" key="#CLI_Interpreters" timestamp="1593005705548">
