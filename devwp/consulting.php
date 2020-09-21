@@ -148,8 +148,7 @@ get_header(); ?>
                             <div class="center detail-table">
                                 <i class="fas <?php the_sub_field('package_icon'); ?> table-icon"></i>
                                 <h3><?php the_sub_field('package_title'); ?></h3>
-                                <p class = "no-padding no-padding pkg-desc"><span class = "bold uppercase"><?php the_sub_field('tagline'); ?></span></p>
-                                <hr>
+                               <hr>
 
                                 <div class="green-check">
                                 <!-- Start Checklist Repeater -->
@@ -190,7 +189,6 @@ get_header(); ?>
                             <div class="center detail-table">
                                 <i class="fas <?php the_sub_field('package_icon'); ?> table-icon"></i>
                                 <h3><?php the_sub_field('package_title'); ?></h3>
-                                <p class = "no-padding no-padding pkg-desc"><span class = "bold uppercase"><?php the_sub_field('tagline'); ?></span></p>
                                 <hr>
 
                                 <div class="green-check">
@@ -224,46 +222,7 @@ get_header(); ?>
                     <?php endwhile; ?>
                 <?php endif; ?>
 
-                <!-- Package Card 3 -->
-                <?php if( have_rows('package_3') ): ?>
-                    <?php while( have_rows('package_3') ): the_row(); ?>
-                        <div class="small-12 margin-top cell padding-top primary-background rounded-corners">
-                            <div class="center detail-table">
-                                <i class="fas <?php the_sub_field('package_icon'); ?> table-icon"></i>
-                                <h3><?php the_sub_field('package_title'); ?></h3>
-                                <p class = "no-padding no-padding pkg-desc"><span class = "bold uppercase"><?php the_sub_field('tagline'); ?></span></p>
-                                <hr>
 
-                                <div class="green-check">
-                                    <!-- Start Checklist Repeater -->
-                                    <?php
-                                    if( have_rows('package_items') ):
-
-                                        // Loop through rows.
-                                        while( have_rows('package_items') ) : the_row(); ?>
-
-                                            <p class = "no-padding no-padding"><i class="fas fa-check"></i> <?php the_sub_field('list_item'); ?></p>
-                                            <hr class="narrow-hr">
-
-                                        <?php
-                                        endwhile;
-                                    else :
-                                        //don't display anything
-                                    endif;
-                                    ?>
-                                    <!-- End Checklist Repeater -->
-                                </div>
-
-                                <div class="margin-bottom">
-                                    <a href="<?php the_sub_field('button_link'); ?>">
-                                        <button class="center no-margin btn btn-v1"><?php the_sub_field('button_title'); ?></button>
-                                    </a>
-                                </div>
-
-                            </div>
-                        </div>
-                    <?php endwhile; ?>
-                <?php endif; ?>
             </div>
         </div>
     </div>
