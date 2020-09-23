@@ -21,8 +21,8 @@
 
 <div class="topnav" id="myTopnav">
     <div class = "logo">
-        <a href="http://hushed-patio.flywheelstaging.com/">
-            <img src = "https://trentstewart.org/wp-content/uploads/2020/07/icon-dark.png" alt = "logo">
+        <a href="https://trentstewart.org/">
+            <img src = "http://pt-blog.local/wp-content/uploads/2020/04/icon-dark.png" alt = "logo">
         </a>
     </div>
 

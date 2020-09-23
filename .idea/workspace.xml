@@ -19,13 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="053c30ea-41d6-43a4-9236-366eb4cc3d4d" name="Default Changelist" comment="Minor CSS tweaks and updated the static url in the header.">
+    <list default="true" id="053c30ea-41d6-43a4-9236-366eb4cc3d4d" name="Default Changelist" comment="Reworked the packages section a bit, removed the tagline, left aligned the items, and deleted the third package at client request.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/devwp/consulting.php" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/consulting.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/devwp/dist/css/main.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/dist/css/main.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/devwp/dist/css/maps/main.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/dist/css/maps/main.min.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/devwp/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/devwp/sass/pages-single/_packages.scss" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/sass/pages-single/_packages.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/devwp/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/header.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -141,7 +137,8 @@
       <workItem from="1600110675162" duration="4196000" />
       <workItem from="1600176650704" duration="1778000" />
       <workItem from="1600283718622" duration="752000" />
-      <workItem from="1600699190319" duration="1424000" />
+      <workItem from="1600699190319" duration="2008000" />
+      <workItem from="1600879668992" duration="196000" />
     </task>
     <task id="LOCAL-00001" summary="Added next and previous post functions to the single broadcast pages. Still need to figure out why they show podcasts as well. Also removed categories from broadcasts for the time being.">
       <created>1592324062831</created>
@@ -388,7 +385,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600284013718</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="Reworked the packages section a bit, removed the tagline, left aligned the items, and deleted the third package at client request.">
+      <created>1600701615598</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1600701615598</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -407,7 +411,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Made all the buttons on the about page functional, as well as fixed a color issue with the social icons." />
     <MESSAGE value="Realized I accidentally swapped the wrong text on when i copy/pastad some code, so I switched it back." />
     <MESSAGE value="Realized I accidentally swapped some important copy out when I copy pasta'd so I went back and fixed that" />
     <MESSAGE value="Updated the consulting page with new links on the buttons. Also noticed some issues with the page that I'll need to go back and fix at a later time." />
@@ -432,7 +435,8 @@
     <MESSAGE value="Updated Consulting to be completely ACF. All pages now use ACF." />
     <MESSAGE value="Updated some placement of inactive buttons on the 404 page and made them active." />
     <MESSAGE value="Minor CSS tweaks and updated the static url in the header." />
-    <option name="LAST_COMMIT_MESSAGE" value="Minor CSS tweaks and updated the static url in the header." />
+    <MESSAGE value="Reworked the packages section a bit, removed the tagline, left aligned the items, and deleted the third package at client request." />
+    <option name="LAST_COMMIT_MESSAGE" value="Reworked the packages section a bit, removed the tagline, left aligned the items, and deleted the third package at client request." />
   </component>
   <component name="WindowStateProjectService">
     <state x="481" y="182" key="#CLI_Interpreters" timestamp="1593005705548">
