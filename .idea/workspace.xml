@@ -21,7 +21,9 @@
   <component name="ChangeListManager">
     <list default="true" id="053c30ea-41d6-43a4-9236-366eb4cc3d4d" name="Default Changelist" comment="Updated the site icon in the navbar as well as the permanent url to the site (on that icon).">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/devwp/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/header.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dev-gulp/gulpfile.js" beforeDir="false" afterPath="$PROJECT_DIR$/dev-gulp/gulpfile.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dev-gulp/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/dev-gulp/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/devwp/consulting.php" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/consulting.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -139,6 +141,10 @@
       <workItem from="1600283718622" duration="752000" />
       <workItem from="1600699190319" duration="2008000" />
       <workItem from="1600879668992" duration="2355000" />
+      <workItem from="1602520777929" duration="255000" />
+      <workItem from="1610034848258" duration="3000" />
+      <workItem from="1610035672355" duration="560000" />
+      <workItem from="1610043789099" duration="876000" />
     </task>
     <task id="LOCAL-00001" summary="Added next and previous post functions to the single broadcast pages. Still need to figure out why they show podcasts as well. Also removed categories from broadcasts for the time being.">
       <created>1592324062831</created>

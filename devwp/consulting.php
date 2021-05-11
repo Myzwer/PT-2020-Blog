@@ -62,7 +62,7 @@ get_header(); ?>
                     <div class="grid-x grid-padding-x grid-margin-x">
                         <?php if( have_rows('card_1') ): ?>
                             <?php while( have_rows('card_1') ): the_row(); ?>
-                                <div class="small-12 medium-4 cell padding-top margin-top-xl primary-background process-box">
+                                <div class="small-12 medium-6 cell padding-top margin-top-xl primary-background process-box">
                                     <div class="number-outer">
                                         <span class="number-circle">1</span>
                                     </div>
@@ -75,7 +75,7 @@ get_header(); ?>
 
                         <?php if( have_rows('card_2') ): ?>
                             <?php while( have_rows('card_2') ): the_row(); ?>
-                                <div class="small-12 medium-4 cell padding-top margin-top-xl primary-background process-box">
+                                <div class="small-12 medium-6 cell padding-top margin-top-xl primary-background process-box">
                                     <div class="number-outer">
                                         <span class="number-circle">2</span>
                                     </div>
@@ -88,7 +88,7 @@ get_header(); ?>
 
                         <?php if( have_rows('card_3') ): ?>
                             <?php while( have_rows('card_3') ): the_row(); ?>
-                                <div class="small-12 medium-4 cell padding-top margin-top-xl primary-background process-box">
+                                <div class="small-12 medium-6 cell padding-top margin-top-xl primary-background process-box">
                                     <div class="number-outer">
                                         <span class="number-circle">3</span>
                                     </div>
@@ -101,7 +101,7 @@ get_header(); ?>
 
                         <?php if( have_rows('card_4') ): ?>
                             <?php while( have_rows('card_4') ): the_row(); ?>
-                                <div class="small-12 medium-4 medium-offset-2 cell padding-top margin-top-xl primary-background process-box">
+                                <div class="small-12 medium-6 cell padding-top margin-top-xl primary-background process-box">
                                     <div class="number-outer">
                                         <span class="number-circle">4</span>
                                     </div>
@@ -112,18 +112,7 @@ get_header(); ?>
                             <?php endwhile; ?>
                         <?php endif; ?>
 
-                        <?php if( have_rows('card_5') ): ?>
-                            <?php while( have_rows('card_5') ): the_row(); ?>
-                                <div class="small-12 medium-4 cell padding-top margin-top-xl primary-background process-box">
-                                    <div class="number-outer">
-                                        <span class="number-circle">5</span>
-                                    </div>
-                                    <h3 class = "center padding-top"><?php the_sub_field('card_title'); ?></h3>
-                                    <hr>
-                                    <p class = "center no-padding no-margin padding-bottom"><?php the_sub_field('card_description'); ?></p>
-                                </div>
-                            <?php endwhile; ?>
-                        <?php endif; ?>
+
                     </div>
                 </div>
             </div>
